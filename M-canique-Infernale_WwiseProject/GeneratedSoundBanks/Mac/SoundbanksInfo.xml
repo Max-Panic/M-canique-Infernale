@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\ELE5d5ab19ee5329\Documents\WorkshopLaNef\M-canique-Infernale\M-canique-Infernale_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\ELE5d5ab19ee5329\Documents\WorkshopLaNef\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\ELE5d5ab19ee5329\Documents\WorkshopLaNef\M-canique-Infernale\M-canique-Infernale_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\ELE5d5ab19ee5329\Documents\WorkshopLaNef\M-canique-Infernale\M-canique-Infernale_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2953616821">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2367430569" Language="SFX" Hash="67286473">
+			<ObjectPath>\SoundBanks\Default Work Unit\MainSNB</ObjectPath>
+			<ShortName>MainSNB</ShortName>
+			<Path>MainSNB.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3018450665" Name="SFX_Test" ObjectPath="\Events\Default Work Unit\SFX\SFX_Test" DurationType="OneShot" DurationMin="212.853333" DurationMax="212.853333">
+					<IncludedMemoryFiles>
+						<File Id="1059915605" Language="SFX">
+							<ShortName>RecordDeathStare.wav</ShortName>
+							<Path>SFX\RecordDeathStare_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
