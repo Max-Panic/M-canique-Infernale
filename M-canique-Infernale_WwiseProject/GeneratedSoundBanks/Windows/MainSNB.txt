@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3018450665	SFX_Test			\Default Work Unit\SFX\SFX_Test	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1059915605	RecordDeathStare	C:\Users\ELE5d5ab19ee5329\Documents\WorkshopLaNef\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Windows\SFX\RecordDeathStare_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Test\RecordDeathStare		10703984
+

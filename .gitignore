@@ -88,7 +88,16 @@ crashlytics-build.properties
 .cache/
 *.akd
 *.validationcache
+Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset
+
+#WWise gitignore
+
+.cache/
+*.akd
+*.validationcache
 [Aa]ssets/WwiseSettings.xml
 [Aa]ssets/WwiseSettings.xml.meta
-Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset
+*.prof
+.cache
+IncrementalSoundBankData.xml
 
