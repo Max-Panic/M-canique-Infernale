@@ -61,5 +61,29 @@ public class AudioManager : MonoBehaviour
         AkSoundEngine.PostEvent("Play_Le_Grand_Coordinateur_09", gameObject);
     }
 
+    void C_01()
+    {
+        AkSoundEngine.PostEvent("Play_Clorenthe_01", gameObject);
+    }
+
+    void C_02()
+    {
+        AkSoundEngine.PostEvent("Play_Clorenthe_02", gameObject);
+    }
+
+    void C_03()
+    {
+        AkSoundEngine.PostEvent("Play_Clorenthe_03", gameObject);
+    }
+
+    void C_04()
+    {
+        AkSoundEngine.PostEvent("Play_Clorenthe_04", gameObject);
+    }
+
+    void C_05()
+    {
+        AkSoundEngine.PostEvent("Play_Clorenthe_05", gameObject);
+    }
 
 }

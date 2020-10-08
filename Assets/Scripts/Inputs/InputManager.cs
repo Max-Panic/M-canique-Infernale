@@ -27,6 +27,12 @@ public class InputManager : MonoBehaviour
     void Update()
     {
 
+        foreach(KeyCode kcode in Enum.GetValues(typeof(KeyCode)))
+        {
+            if (Input.GetKey(kcode))
+                Debug.Log("KeyCode down: " + kcode);
+        }
+
         if(eau)
             animator.SetBool("Water", false);
         
