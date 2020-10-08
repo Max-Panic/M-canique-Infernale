@@ -16,6 +16,50 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_SFX_Cordelette_Break" ID="{884C2E08-93E8-494F-B2B9-8E54DA914994}">
+							<ChildrenList>
+								<Action Name="" ID="{76DB2221-A9D0-4265-BC47-6BDC7BE87D14}" ShortID="1018221353">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX Cordelette Break" ID="{917C3E4A-97C8-4184-A0B9-B74095F21F21}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Glitch" ID="{FFC7C976-3146-402C-B09A-B352F076C9AC}">
+							<ChildrenList>
+								<Action Name="" ID="{D6561D7F-4D44-47E2-B224-AAEDA75A412E}" ShortID="562668173">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX Glitch" ID="{873ED286-1D3E-4491-B30A-E812DE368B54}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Alarme" ID="{A911FBEC-18EE-4D64-8B0A-4E1D58786A72}">
+							<ChildrenList>
+								<Action Name="" ID="{6C0D0730-BF94-474D-8C8E-A710CA1BC3F6}" ShortID="500844424">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX Alarme" ID="{997C4902-471D-44D0-ADDC-0679E9195040}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Grand_Coordinateur_Go_Away" ID="{EC1E1CCF-FF8D-46BB-A44B-4456FC9C12F7}">
+							<ChildrenList>
+								<Action Name="" ID="{9308CB75-9305-4A08-9B51-2E983308144C}" ShortID="577513129">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX Grand Coordinateur Go Away" ID="{E7A0BFBA-7B88-48FB-96B6-B1518704C98D}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Event Name="Play_Arthur_01" ID="{27E290FE-E1C6-4DEF-9930-058639457DFE}">
@@ -205,51 +249,65 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Running_Hamster_Starting" ID="{44AE2BA6-F6BC-4B0C-8175-AE76068AB545}">
+				<Folder Name="Hamster" ID="{6223815E-FA0B-4AC6-AE5A-5621F3170135}" ShortID="910796295">
 					<ChildrenList>
-						<Action Name="" ID="{51AE582A-5E46-4495-B97A-2B49512A895F}" ShortID="478733065">
+						<Event Name="Play_Sleeping_Hamster" ID="{726615D3-1C88-477C-A734-DEC9647A6D00}">
+							<ChildrenList>
+								<Action Name="" ID="{83584651-15E6-49F7-9249-093BF4F4DC6E}" ShortID="241706470">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sleeping Hamster" ID="{171BC3CE-C80E-4F3A-A8AB-286B7CD1AAD5}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Running_Hamster_Starting" ID="{44AE2BA6-F6BC-4B0C-8175-AE76068AB545}">
+							<ChildrenList>
+								<Action Name="" ID="{51AE582A-5E46-4495-B97A-2B49512A895F}" ShortID="478733065">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hamster Running" ID="{30EA559F-77D6-415F-90CD-44D795D0125A}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Running_Hamster_Wheel" ID="{0770B228-2FCB-4D70-AD41-ECB7B1CFE90F}">
+							<ChildrenList>
+								<Action Name="" ID="{8645B9D3-CB61-4B58-8281-5DAED3264E44}" ShortID="619890448">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Running Hamster Wheel Ending" ID="{B5D7FB4D-28C7-4298-B577-621FB67A7582}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0F21D242-ECE7-4F5D-AFEE-A3A4477D897C}" ShortID="39654152">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hamster Running" ID="{30EA559F-77D6-415F-90CD-44D795D0125A}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Play_Roy_Snoring" ID="{4D58D81A-D95A-401C-BA16-26C070710A97}">
+					<ChildrenList>
+						<Action Name="" ID="{681DA3D9-46D2-4888-97D5-FA94BC200C08}" ShortID="52995724">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Hamster Running Hamster Running" ID="{30EA559F-77D6-415F-90CD-44D795D0125A}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+									<ObjectRef Name="Roy" ID="{197B78DC-B0C6-44F4-81A2-847DA58657A0}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop_Running_Hamster_Wheel" ID="{0770B228-2FCB-4D70-AD41-ECB7B1CFE90F}">
-					<ChildrenList>
-						<Action Name="" ID="{8645B9D3-CB61-4B58-8281-5DAED3264E44}" ShortID="619890448">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Running Hamster Wheel Ending" ID="{B5D7FB4D-28C7-4298-B577-621FB67A7582}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{0F21D242-ECE7-4F5D-AFEE-A3A4477D897C}" ShortID="39654152">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Hamster Running Hamster Running" ID="{30EA559F-77D6-415F-90CD-44D795D0125A}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Sleeping_Hamster" ID="{726615D3-1C88-477C-A734-DEC9647A6D00}">
-					<ChildrenList>
-						<Action Name="" ID="{83584651-15E6-49F7-9249-093BF4F4DC6E}" ShortID="241706470">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Sleeping Hamster" ID="{171BC3CE-C80E-4F3A-A8AB-286B7CD1AAD5}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Folder Name="Hamster" ID="{6223815E-FA0B-4AC6-AE5A-5621F3170135}" ShortID="910796295"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
