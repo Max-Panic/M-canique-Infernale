@@ -31,17 +31,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_SFX_Glitch" ID="{FFC7C976-3146-402C-B09A-B352F076C9AC}">
-							<ChildrenList>
-								<Action Name="" ID="{D6561D7F-4D44-47E2-B224-AAEDA75A412E}" ShortID="562668173">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="SFX Glitch" ID="{873ED286-1D3E-4491-B30A-E812DE368B54}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Play_SFX_Alarme" ID="{A911FBEC-18EE-4D64-8B0A-4E1D58786A72}">
 							<ChildrenList>
 								<Action Name="" ID="{6C0D0730-BF94-474D-8C8E-A710CA1BC3F6}" ShortID="500844424">
@@ -75,6 +64,57 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Folder Name="Glitch" ID="{4DA4605B-D862-4553-885B-47DD4D55E469}" ShortID="640536248">
+							<ChildrenList>
+								<Event Name="Play_ViewPortGlitch_Background" ID="{1BDF9EBF-50EB-4172-9118-7367424E77DE}">
+									<ChildrenList>
+										<Action Name="" ID="{13376980-6BCC-4183-840A-56C6F8196519}" ShortID="267134952">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ViewPortGlitch_Background" ID="{61059A29-2B18-482C-B374-5CA9FA8C38A8}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_White_Noise" ID="{46BE4165-8A5C-429A-92AD-2ED1055DB2C7}">
+									<ChildrenList>
+										<Action Name="" ID="{D4883946-D19B-4AF2-9791-2DA478511F7A}" ShortID="881376965">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="White Noise" ID="{C23E38F9-B678-451F-B29B-B6037029AE1B}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_White_Noise" ID="{32885530-67BD-487A-9CF5-D0CD4B9DBC41}">
+									<ChildrenList>
+										<Action Name="" ID="{380B6892-3C73-4A56-A1C9-F41E991DE131}" ShortID="209713789">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="White Noise" ID="{C23E38F9-B678-451F-B29B-B6037029AE1B}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_Glitch" ID="{FFC7C976-3146-402C-B09A-B352F076C9AC}">
+									<ChildrenList>
+										<Action Name="" ID="{CCB3A61C-27D1-4CF7-8846-3D938505FCDF}" ShortID="1013030530">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Image Glitch Shift" ID="{DC792403-DDF2-4C4F-BF4E-4B2A3716A077}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Hamster" ID="{6223815E-FA0B-4AC6-AE5A-5621F3170135}" ShortID="910796295">
@@ -122,6 +162,20 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Hamster Running" ID="{30EA559F-77D6-415F-90CD-44D795D0125A}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Sleeping_Hamster" ID="{74285E8A-53CB-43F8-9332-9A1EEE6ACFEE}">
+							<ChildrenList>
+								<Action Name="" ID="{3995011E-BB53-4CDC-9497-59446493EA1E}" ShortID="580796841">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sleeping Hamster" ID="{171BC3CE-C80E-4F3A-A8AB-286B7CD1AAD5}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -328,6 +382,78 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Roy" ID="{197B78DC-B0C6-44F4-81A2-847DA58657A0}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Roy_Snoring" ID="{CC17801A-FC00-4012-B619-074EB520A91E}">
+							<ChildrenList>
+								<Action Name="" ID="{A0136574-52DD-4F42-A811-F7E0508210CD}" ShortID="598545719">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Roy" ID="{197B78DC-B0C6-44F4-81A2-847DA58657A0}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambiance" ID="{FE57FB37-C4FD-48BA-835B-729BC0AB1AA4}" ShortID="912086417">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Stop_Ambiance_Stand" ID="{29ACBFD1-FF04-4481-9B40-8C374711A394}">
+							<ChildrenList>
+								<Action Name="" ID="{411F8BCF-90D7-461F-82F7-F92D2550B468}" ShortID="765067569">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambiance Stand" ID="{6D9FD172-529C-4CF6-9D2A-73CA093658BA}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ambiance_Stand" ID="{9A76A555-4C52-48C3-BF6E-F50F39B913C3}">
+							<ChildrenList>
+								<Action Name="" ID="{B29F781E-387E-441A-AF03-881E169FEB05}" ShortID="956081683">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambiance Stand" ID="{6D9FD172-529C-4CF6-9D2A-73CA093658BA}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ambiance_Monde_des_Robots" ID="{0875ED35-7E0C-4FA6-A96D-046A0E7D5DC3}">
+							<ChildrenList>
+								<Action Name="" ID="{B2F9B3D7-63FE-4B4F-9D60-A125479A8B9D}" ShortID="718244653">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambiance Monde des Robots" ID="{FB9C226C-88A2-4417-BD23-1D5739B2968D}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Ambiance_Monde_des_Robots" ID="{583B4AC3-1394-417D-8B55-5BD75DB5D31D}">
+							<ChildrenList>
+								<Action Name="" ID="{D6292716-7745-4B1F-9725-4788981BF88A}" ShortID="567767540">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambiance Monde des Robots" ID="{FB9C226C-88A2-4417-BD23-1D5739B2968D}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

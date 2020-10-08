@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PluginInfo Project="M-canique-Infernale_WwiseProject" Platform="Windows" BasePlatform="Windows">
 	<Plugins>
+		<Plugin Name="Wwise Tone Generator" ID="6684674" DLL="AkToneGen"/>
 		<Plugin Name="Wwise Flanger" ID="8192003" DLL="AkFlanger"/>
 		<Plugin Name="Wwise Recorder" ID="8650755" DLL="AkRecorder"/>
 		<Plugin Name="Wwise Harmonizer" ID="9043971" DLL="AkHarmonizer"/>
