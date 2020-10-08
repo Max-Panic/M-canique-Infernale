@@ -454,15 +454,20 @@
 				</ActorMixer>
 				<ActorMixer Name="Voice" ID="{9AFB7CD5-29D5-4F5C-B2B4-0BAE7D9D32E3}" ShortID="757434664">
 					<PropertyList>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
 						<Property Name="Color" Type="int16" Value="24"/>
 						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
-						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 						<Property Name="MaxSoundPerInstance" Type="int16">
 							<ValueList>
 								<Value>1</Value>
 							</ValueList>
 						</Property>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
