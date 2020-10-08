@@ -701,7 +701,7 @@ MonoBehaviour:
   stopRoySleep:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 24cdd44c68e80b84b81a74b6f8d108f7,
+    WwiseObjectReference: {fileID: 11400000, guid: b2798328058b0694f985b7f703081cfa,
       type: 2}
   playSkittlesSleep:
     idInternal: 0
@@ -711,7 +711,7 @@ MonoBehaviour:
   stopSkittlesSleep:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 24cdd44c68e80b84b81a74b6f8d108f7,
+    WwiseObjectReference: {fileID: 11400000, guid: 84af8364fdd61f144828110d168b8357,
       type: 2}
 --- !u!1001 &1490117446
 PrefabInstance:

@@ -34,6 +34,7 @@ public class InputManager : MonoBehaviour
         {
             if (!echec)
             {
+                
                 boardSwitcher.kingUnlock = true;
                 animator.SetTrigger("Chess");
                 echec = true;
