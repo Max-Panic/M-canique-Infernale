@@ -25,10 +25,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e4c4b91-b2a1-4546-8ef8-39feff8fc52a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Mécanique Infernale/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mécanique Infernale/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Mécanique Infernale/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mécanique Infernale/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene_Remi.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene_Remi.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inputs/InputManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inputs/InputManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inputs/NavigationArrow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inputs/NavigationArrow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Panel/BoardSwitcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Panel/BoardSwitcher.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +54,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Inputs/NumpadCode.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Panel/Board.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Panel/BoardSwitcher.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Inputs/NavigationArrow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Inputs/InputManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inputs/NavigationArrow.cs" />
       </list>
     </option>
   </component>
@@ -105,7 +106,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602075592733</updated>
       <workItem from="1602075598321" duration="7940000" />
-      <workItem from="1602145743580" duration="14670000" />
+      <workItem from="1602145743580" duration="16538000" />
     </task>
     <servers />
   </component>
