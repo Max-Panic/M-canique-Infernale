@@ -250,6 +250,28 @@
 					</ChildrenList>
 				</Event>
 				<Folder Name="Hamster" ID="{6223815E-FA0B-4AC6-AE5A-5621F3170135}" ShortID="910796295"/>
+				<Event Name="Play_Glitch" ID="{D392F533-3909-43F3-B210-EB6E9751706E}">
+					<ChildrenList>
+						<Action Name="" ID="{E2724819-D896-41D0-8602-68EEFD67F36E}" ShortID="527217908">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Glitch" ID="{873ED286-1D3E-4491-B30A-E812DE368B54}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cordelette_Break" ID="{57097D75-9679-4DC0-969A-B1F6EACF6C7A}">
+					<ChildrenList>
+						<Action Name="" ID="{5390CD21-28B8-48FE-949B-C60EC23D87EC}" ShortID="368545425">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cordelette Break" ID="{917C3E4A-97C8-4184-A0B9-B74095F21F21}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
