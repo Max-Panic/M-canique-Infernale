@@ -4,6 +4,10 @@
 		<WorkUnit Name="Default Work Unit" ID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}" PersistMode="Standalone">
 			<ChildrenList>
 				<ActorMixer Name="SFX" ID="{93E5CA6A-53D8-4ECF-AD0F-087303DB1BA1}" ShortID="419340474">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="21"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
@@ -808,6 +812,141 @@
 								</Sound>
 							</ChildrenList>
 						</BlendContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Bruitages" ID="{1557AF76-D421-4FB7-AC59-8E151271BDA8}" ShortID="140792097">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="16"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="Hamster Running Hamster Running" ID="{30EA559F-77D6-415F-90CD-44D795D0125A}" ShortID="134686476">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Running Hamster Wheel Starting" ID="{D0F08572-C44B-40AE-ACB0-70DB720BC802}" ShortID="735144428">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Running Hamster Wheel Starting" ID="{3EDB46B3-76E5-4A72-AAA2-C320DAD1650D}">
+											<Language>SFX</Language>
+											<AudioFile>Running Hamster Wheel Starting.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="967106777"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Running Hamster Wheel Starting" ID="{3EDB46B3-76E5-4A72-AAA2-C320DAD1650D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Running Hamster" ID="{007A87B1-CECB-44D7-B9BC-551B16A56254}" ShortID="486656669">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Running Hamster" ID="{F29012E0-DD3E-4B2C-B363-C242CB4095A6}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="1037.266"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.63388143989432"/>
+												<Property Name="LoopEnd" Type="Real64" Value="16.5488333058124"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Running Hamster.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="678413032"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Running Hamster" ID="{F29012E0-DD3E-4B2C-B363-C242CB4095A6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<Sound Name="Running Hamster Wheel Ending" ID="{B5D7FB4D-28C7-4298-B577-621FB67A7582}" ShortID="97279070">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Running Hamster Wheel Ending" ID="{70965E05-C908-481D-8BF8-6AF1B40F0614}">
+									<Language>SFX</Language>
+									<AudioFile>Running Hamster Wheel Ending.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="693517478"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Running Hamster Wheel Ending" ID="{70965E05-C908-481D-8BF8-6AF1B40F0614}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sleeping Hamster" ID="{171BC3CE-C80E-4F3A-A8AB-286B7CD1AAD5}" ShortID="796803400">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sleeping Hamster" ID="{BF08DF1F-CB95-4479-B1BF-59055C13AF9D}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="1729.471"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.385850066050198"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.900316820783793"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.47909191985909"/>
+										<Property Name="LoopEnd" Type="Real64" Value="23.1831581351827"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.546620926904447"/>
+										<Property Name="TrimEnd" Type="Real64" Value="24.1156291281374"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Sleeping Hamster.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="465848201"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sleeping Hamster" ID="{BF08DF1F-CB95-4479-B1BF-59055C13AF9D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

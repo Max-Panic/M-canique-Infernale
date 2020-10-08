@@ -17,6 +17,14 @@
 							<ObjectRef Name="Le Grand Coordinateur 05" ID="{0D5E8D4B-F03D-42BE-A89D-A629A99E14DE}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
 							<Position X="2" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_Running_Hamster_Starting" ID="{44AE2BA6-F6BC-4B0C-8175-AE76068AB545}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Running_Hamster_Wheel" ID="{0770B228-2FCB-4D70-AD41-ECB7B1CFE90F}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>
+							<Position X="4" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>

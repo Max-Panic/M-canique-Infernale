@@ -205,6 +205,51 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Running_Hamster_Starting" ID="{44AE2BA6-F6BC-4B0C-8175-AE76068AB545}">
+					<ChildrenList>
+						<Action Name="" ID="{51AE582A-5E46-4495-B97A-2B49512A895F}" ShortID="478733065">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hamster Running Hamster Running" ID="{30EA559F-77D6-415F-90CD-44D795D0125A}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Running_Hamster_Wheel" ID="{0770B228-2FCB-4D70-AD41-ECB7B1CFE90F}">
+					<ChildrenList>
+						<Action Name="" ID="{8645B9D3-CB61-4B58-8281-5DAED3264E44}" ShortID="619890448">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Running Hamster Wheel Ending" ID="{B5D7FB4D-28C7-4298-B577-621FB67A7582}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0F21D242-ECE7-4F5D-AFEE-A3A4477D897C}" ShortID="39654152">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hamster Running Hamster Running" ID="{30EA559F-77D6-415F-90CD-44D795D0125A}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sleeping_Hamster" ID="{726615D3-1C88-477C-A734-DEC9647A6D00}">
+					<ChildrenList>
+						<Action Name="" ID="{83584651-15E6-49F7-9249-093BF4F4DC6E}" ShortID="241706470">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sleeping Hamster" ID="{171BC3CE-C80E-4F3A-A8AB-286B7CD1AAD5}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Hamster" ID="{6223815E-FA0B-4AC6-AE5A-5621F3170135}" ShortID="910796295"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
