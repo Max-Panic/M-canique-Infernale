@@ -409,8 +409,113 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0.13333334
+    functionName: Dialog
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 64
+    messageOptions: 0
+  - time: 1.7333333
+    functionName: Dialog
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 65
+    messageOptions: 0
+  - time: 2.8
+    functionName: Dialog
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 3.5333333
+    functionName: Dialog
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 66
+    messageOptions: 0
+  - time: 4.3333335
+    functionName: Dialog
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 4.9333334
+    functionName: Dialog
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 67
+    messageOptions: 0
+  - time: 5.4666667
+    functionName: Dialog
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 68
+    messageOptions: 0
+  - time: 7.266667
+    functionName: Dialog
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 69
+    messageOptions: 0
+  - time: 7.866667
+    functionName: Dialog
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 8.266666
+    functionName: Dialog
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 70
+    messageOptions: 0
+  - time: 10.066667
+    functionName: Dialog
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 71
+    messageOptions: 0
+  - time: 11.6
+    functionName: Dialog
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 12.066667
     functionName: C_02
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 12.266666
+    functionName: Dialog
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 72
+    messageOptions: 0
+  - time: 13.666667
+    functionName: Dialog
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 73
+    messageOptions: 0
+  - time: 14.466666
+    functionName: Dialog
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
