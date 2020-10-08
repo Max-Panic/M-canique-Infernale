@@ -40,12 +40,15 @@ namespace AK
         static const AkUniqueID PLAY_SFX_GLITCH = 4163194645U;
         static const AkUniqueID PLAY_SFX_GRAND_COORDINATEUR_GO_AWAY = 536964290U;
         static const AkUniqueID PLAY_SLEEPING_HAMSTER = 2175546250U;
+        static const AkUniqueID PLAY_VIEWPORTGLITCH_BACKGROUND = 3816934786U;
+        static const AkUniqueID PLAY_WHITE_NOISE = 2214627026U;
         static const AkUniqueID SFX_TEST = 3018450665U;
         static const AkUniqueID STOP_AMBIANCE_MONDE_DES_ROBOTS = 2968199849U;
         static const AkUniqueID STOP_AMBIANCE_STAND = 1323140453U;
         static const AkUniqueID STOP_ROY_SNORING = 1580981595U;
         static const AkUniqueID STOP_RUNNING_HAMSTER_WHEEL = 3134580886U;
         static const AkUniqueID STOP_SLEEPING_HAMSTER = 3741257152U;
+        static const AkUniqueID STOP_WHITE_NOISE = 3995502072U;
     } // namespace EVENTS
 
     namespace BANKS

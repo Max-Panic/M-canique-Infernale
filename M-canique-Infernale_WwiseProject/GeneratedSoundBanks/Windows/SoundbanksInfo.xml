@@ -265,7 +265,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4163194645" Name="Play_SFX_Glitch" ObjectPath="\Events\Default Work Unit\SFX\Play_SFX_Glitch" DurationType="Infinite">
+				<Event Id="4163194645" Name="Play_SFX_Glitch" ObjectPath="\Events\Default Work Unit\SFX\Glitch\Play_SFX_Glitch" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="13822155" Language="SFX">
 							<ShortName>UI_ViewPortGlitch_Background_Image_Shift_06.wav</ShortName>
@@ -274,10 +274,6 @@
 						<File Id="51383337" Language="SFX">
 							<ShortName>UI_ViewPortGlitch_Background_Image_Shift_08.wav</ShortName>
 							<Path>SFX\UI_ViewPortGlitch_Background_Image_Shift_08_755F56E2.wem</Path>
-						</File>
-						<File Id="100298728" Language="SFX">
-							<ShortName>UI_ViewPortGlitch_Background_Without_High_Frequency.wav</ShortName>
-							<Path>SFX\UI_ViewPortGlitch_Background_Without_High_Frequency_946ABBFB.wem</Path>
 						</File>
 						<File Id="120506928" Language="SFX">
 							<ShortName>UI_ViewPortGlitch_Background_Image_Shift_03.wav</ShortName>
@@ -321,6 +317,15 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3816934786" Name="Play_ViewPortGlitch_Background" ObjectPath="\Events\Default Work Unit\SFX\Glitch\Play_ViewPortGlitch_Background" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="100298728" Language="SFX">
+							<ShortName>UI_ViewPortGlitch_Background_Without_High_Frequency.wav</ShortName>
+							<Path>SFX\UI_ViewPortGlitch_Background_Without_High_Frequency_946ABBFB.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2214627026" Name="Play_White_Noise" ObjectPath="\Events\Default Work Unit\SFX\Glitch\Play_White_Noise" DurationType="OneShot" DurationMin="1.600000" DurationMax="1.600000"/>
 				<Event Id="3018450665" Name="SFX_Test" ObjectPath="\Events\Default Work Unit\SFX\SFX_Test" DurationType="OneShot" DurationMin="212.853333" DurationMax="212.853333">
 					<IncludedMemoryFiles>
 						<File Id="1059915605" Language="SFX">
@@ -341,6 +346,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3741257152" Name="Stop_Sleeping_Hamster" ObjectPath="\Events\Default Work Unit\Hamster\Stop_Sleeping_Hamster" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3995502072" Name="Stop_White_Noise" ObjectPath="\Events\Default Work Unit\SFX\Glitch\Stop_White_Noise" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
