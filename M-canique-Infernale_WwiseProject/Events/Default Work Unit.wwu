@@ -16,8 +16,298 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_SFX_Cordelette_Break" ID="{884C2E08-93E8-494F-B2B9-8E54DA914994}">
+							<ChildrenList>
+								<Action Name="" ID="{76DB2221-A9D0-4265-BC47-6BDC7BE87D14}" ShortID="1018221353">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX Cordelette Break" ID="{917C3E4A-97C8-4184-A0B9-B74095F21F21}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Glitch" ID="{FFC7C976-3146-402C-B09A-B352F076C9AC}">
+							<ChildrenList>
+								<Action Name="" ID="{D6561D7F-4D44-47E2-B224-AAEDA75A412E}" ShortID="562668173">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX Glitch" ID="{873ED286-1D3E-4491-B30A-E812DE368B54}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Alarme" ID="{A911FBEC-18EE-4D64-8B0A-4E1D58786A72}">
+							<ChildrenList>
+								<Action Name="" ID="{6C0D0730-BF94-474D-8C8E-A710CA1BC3F6}" ShortID="500844424">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX Alarme" ID="{997C4902-471D-44D0-ADDC-0679E9195040}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Grand_Coordinateur_Go_Away" ID="{EC1E1CCF-FF8D-46BB-A44B-4456FC9C12F7}">
+							<ChildrenList>
+								<Action Name="" ID="{9308CB75-9305-4A08-9B51-2E983308144C}" ShortID="577513129">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX Grand Coordinateur Go Away" ID="{E7A0BFBA-7B88-48FB-96B6-B1518704C98D}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_Arthur_01" ID="{27E290FE-E1C6-4DEF-9930-058639457DFE}">
+					<ChildrenList>
+						<Action Name="" ID="{ABB6AA40-6DC4-4968-ACA8-0349EB05DC00}" ShortID="323279110">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Arthur 01" ID="{58EAC991-EA6A-4B17-8930-D14133FC9E24}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Arthur_02" ID="{568A0714-F823-4D43-A413-CF7C4DCA8421}">
+					<ChildrenList>
+						<Action Name="" ID="{F3DC5877-2FD8-4F4D-A2A4-0CC10EF10A60}" ShortID="478906903">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Arthur 02" ID="{B7560F60-AE9E-44DD-845B-64A85E515DB0}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Clorenthe_01" ID="{73B68E82-EB79-4EB1-B44B-02BE8BC58B53}">
+					<ChildrenList>
+						<Action Name="" ID="{092A8CC8-7573-45DC-8965-3B52873B782D}" ShortID="922823920">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Clorenthe 01" ID="{AA6EA93F-876B-4345-BF6F-D3621D58348E}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Clorenthe_02" ID="{CDF86CCE-255F-4882-A89B-005A7AB7AA28}">
+					<ChildrenList>
+						<Action Name="" ID="{24515035-2DBC-43DE-BAE6-0717D2A6D0B5}" ShortID="529564298">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Clorenthe 02" ID="{0D3A8EEB-E562-4044-B716-BDF2A644356A}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Clorenthe_03" ID="{0C7FFAC9-84A8-48D5-8F17-3E1A1A3E824B}">
+					<ChildrenList>
+						<Action Name="" ID="{32934C1A-58C5-49DE-B6AE-2B46BCA881B4}" ShortID="59123967">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Clorenthe 03" ID="{95E844A5-BFCF-49CA-BB72-9534E5244866}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Clorenthe_04" ID="{A3080939-A3E5-4125-8321-9E903F24E236}">
+					<ChildrenList>
+						<Action Name="" ID="{8F4E0621-C0E0-48CD-BC69-0BFFCE32473F}" ShortID="18886843">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Clorenthe 04" ID="{8E030AF6-31A6-4738-8F46-EBA735AC6995}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Clorenthe_05" ID="{E1B58A3F-687E-4C25-8445-70B5633541D1}">
+					<ChildrenList>
+						<Action Name="" ID="{43CAA76A-12A5-4438-99AE-BEBB254FEAF9}" ShortID="754561647">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Clorenthe 05" ID="{FE72C5B5-2243-47CF-B7A0-22343D1FB200}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_El_Diabolisious" ID="{E9EC5103-3211-4C6F-B7D8-96935E9E3BC9}">
+					<ChildrenList>
+						<Action Name="" ID="{68B90103-E054-4A6B-8E5B-7EE908A1FC0F}" ShortID="563055934">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="El Diabolisious" ID="{3AEB166F-6F67-4BAC-A0EB-2C9E5926F734}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Le_Grand_Coordinateur_01" ID="{D2F31623-AE5A-4479-97FF-CC4D89B38B54}">
+					<ChildrenList>
+						<Action Name="" ID="{9DE7EC34-2523-49C8-877E-7BC824D28A6D}" ShortID="125275761">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Le Grand Coordinateur 01" ID="{F22179A4-6993-40D3-B314-C00C750A7276}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Le_Grand_Coordinateur_02" ID="{48D40B1C-560E-42C9-97C4-961BBBD9A270}">
+					<ChildrenList>
+						<Action Name="" ID="{513287D2-9256-45C0-A188-E1C3D4BAE2B5}" ShortID="452500174">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Le Grand Coordinateur 02" ID="{71693C51-7BC9-4130-B237-5AF83E2CE443}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Le_Grand_Coordinateur_03" ID="{B35737FB-123F-4301-8429-F8075F4235BE}">
+					<ChildrenList>
+						<Action Name="" ID="{6E4F957A-4C87-458A-A337-34AAFC2D643A}" ShortID="114726639">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Le Grand Coordinateur 03" ID="{F9C5EE16-590F-4B26-B632-47A3D42648C6}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Le_Grand_Coordinateur_04" ID="{2555E39D-190F-48F7-8588-548FBB161C13}">
+					<ChildrenList>
+						<Action Name="" ID="{C005EECD-34D3-476D-AF33-62AB44C54846}" ShortID="883249073">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Le Grand Coordinateur 04" ID="{3080A556-F2D3-439B-A78E-F616B9AE5439}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Le_Grand_Coordinateur_05" ID="{794C4C10-AF7D-4FD1-8EA3-4B7734170F5A}">
+					<ChildrenList>
+						<Action Name="" ID="{2595E74B-1272-48EC-B0DD-98D95F42F797}" ShortID="30623089">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Le Grand Coordinateur 05" ID="{0D5E8D4B-F03D-42BE-A89D-A629A99E14DE}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Le_Grand_Coordinateur_06" ID="{FC165B18-FFD3-4EB8-9829-6A8486335780}">
+					<ChildrenList>
+						<Action Name="" ID="{F9A48F78-7DF0-49BB-9652-CE863461B2E9}" ShortID="88792734">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Le Grand Coordinateur 06" ID="{576C7721-E24F-4117-9E73-4FA5DFC54771}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Le_Grand_Coordinateur_07" ID="{6ED7F132-438D-4C38-9A19-6510B6EDA2D2}">
+					<ChildrenList>
+						<Action Name="" ID="{4BFE813B-1D7D-4DF3-8266-61DE341829A8}" ShortID="33718703">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Le Grand Coordinateur 07" ID="{10F0E0EF-D1AF-4F15-B469-B81825A77C16}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Le_Grand_Coordinateur_08" ID="{3A1E9A48-2035-4EA7-8D02-66F7D8598E3C}">
+					<ChildrenList>
+						<Action Name="" ID="{26C46456-B101-4AB6-BC2B-B6E44010C60D}" ShortID="564701905">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Le Grand Coordinateur 08" ID="{E8CFD393-E7D6-4AC8-9161-83BA64F56E32}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Le_Grand_Coordinateur_09" ID="{3F965D0C-E324-49BE-8525-F13E79F1EBE3}">
+					<ChildrenList>
+						<Action Name="" ID="{6CE66A7F-16CB-405D-A81D-2B1B6ED840DE}" ShortID="858125618">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Le Grand Coordinateur 09" ID="{5C2E8DC5-0BC9-45F0-828A-321BBD428A9F}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Hamster" ID="{6223815E-FA0B-4AC6-AE5A-5621F3170135}" ShortID="910796295">
+					<ChildrenList>
+						<Event Name="Play_Sleeping_Hamster" ID="{726615D3-1C88-477C-A734-DEC9647A6D00}">
+							<ChildrenList>
+								<Action Name="" ID="{83584651-15E6-49F7-9249-093BF4F4DC6E}" ShortID="241706470">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sleeping Hamster" ID="{171BC3CE-C80E-4F3A-A8AB-286B7CD1AAD5}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Running_Hamster_Starting" ID="{44AE2BA6-F6BC-4B0C-8175-AE76068AB545}">
+							<ChildrenList>
+								<Action Name="" ID="{51AE582A-5E46-4495-B97A-2B49512A895F}" ShortID="478733065">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hamster Running" ID="{30EA559F-77D6-415F-90CD-44D795D0125A}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Running_Hamster_Wheel" ID="{0770B228-2FCB-4D70-AD41-ECB7B1CFE90F}">
+							<ChildrenList>
+								<Action Name="" ID="{8645B9D3-CB61-4B58-8281-5DAED3264E44}" ShortID="619890448">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Running Hamster Wheel Ending" ID="{B5D7FB4D-28C7-4298-B577-621FB67A7582}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0F21D242-ECE7-4F5D-AFEE-A3A4477D897C}" ShortID="39654152">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hamster Running" ID="{30EA559F-77D6-415F-90CD-44D795D0125A}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Play_Roy_Snoring" ID="{4D58D81A-D95A-401C-BA16-26C070710A97}">
+					<ChildrenList>
+						<Action Name="" ID="{681DA3D9-46D2-4888-97D5-FA94BC200C08}" ShortID="52995724">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Roy" ID="{197B78DC-B0C6-44F4-81A2-847DA58657A0}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -4,6 +4,10 @@
 		<WorkUnit Name="Default Work Unit" ID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}" PersistMode="Standalone">
 			<ChildrenList>
 				<ActorMixer Name="SFX" ID="{93E5CA6A-53D8-4ECF-AD0F-087303DB1BA1}" ShortID="419340474">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="21"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
@@ -45,6 +49,1355 @@
 										<ActiveSource Name="RecordDeathStare" ID="{4DA888A0-9366-4E07-B135-605BE0002469}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="SFX Glitch" ID="{873ED286-1D3E-4491-B30A-E812DE368B54}" ShortID="436515693">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Image Shift" ID="{DC792403-DDF2-4C4F-BF4E-4B2A3716A077}" ShortID="978957297">
+									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4.5">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1DE88B64-A06C-45CE-A32F-4BE029B6DD7B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="UI_ViewPortGlitch_Background_Image_Shift_01" ID="{9DDDCB08-EFD3-4E25-BC16-49256BB02FEB}" ShortID="534621309">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_ViewPortGlitch_Background_Image_Shift_01" ID="{FFB34015-A990-4FA7-B1F4-B45D063E8DFF}">
+													<Language>SFX</Language>
+													<AudioFile>UI_ViewPortGlitch_Background_Image_Shift_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="676431798"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_ViewPortGlitch_Background_Image_Shift_01" ID="{FFB34015-A990-4FA7-B1F4-B45D063E8DFF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_ViewPortGlitch_Background_Image_Shift_02" ID="{4FFE46D8-46DD-4D5E-AFF9-ABB572330BF2}" ShortID="1065295281">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_ViewPortGlitch_Background_Image_Shift_02" ID="{E429FC96-2B41-4830-B5DF-918FDBA2B3C2}">
+													<Language>SFX</Language>
+													<AudioFile>UI_ViewPortGlitch_Background_Image_Shift_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="135057003"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_ViewPortGlitch_Background_Image_Shift_02" ID="{E429FC96-2B41-4830-B5DF-918FDBA2B3C2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_ViewPortGlitch_Background_Image_Shift_03" ID="{FA12D19F-1B2D-4773-BFAC-6CB9ED4F31C1}" ShortID="913486247">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_ViewPortGlitch_Background_Image_Shift_03" ID="{994D588C-F0DC-42E9-A557-69918EB300AD}">
+													<Language>SFX</Language>
+													<AudioFile>UI_ViewPortGlitch_Background_Image_Shift_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="120506928"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_ViewPortGlitch_Background_Image_Shift_03" ID="{994D588C-F0DC-42E9-A557-69918EB300AD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_ViewPortGlitch_Background_Image_Shift_04" ID="{25CF54EE-DEE0-4256-AC4B-97BEBEE0E8AA}" ShortID="270638669">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_ViewPortGlitch_Background_Image_Shift_04" ID="{948D71F0-6F3B-4DEA-9C23-0B4A8C5F0D8E}">
+													<Language>SFX</Language>
+													<AudioFile>UI_ViewPortGlitch_Background_Image_Shift_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="291758090"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_ViewPortGlitch_Background_Image_Shift_04" ID="{948D71F0-6F3B-4DEA-9C23-0B4A8C5F0D8E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_ViewPortGlitch_Background_Image_Shift_05" ID="{34653B7A-5230-478D-B07F-92224459D345}" ShortID="536694302">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_ViewPortGlitch_Background_Image_Shift_05" ID="{645AB832-EA04-4C76-89E5-4989A4E10338}">
+													<Language>SFX</Language>
+													<AudioFile>UI_ViewPortGlitch_Background_Image_Shift_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="948843778"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_ViewPortGlitch_Background_Image_Shift_05" ID="{645AB832-EA04-4C76-89E5-4989A4E10338}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_ViewPortGlitch_Background_Image_Shift_06" ID="{AEF0400D-0787-4BEC-BFD4-628E4A8A68F6}" ShortID="689902143">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_ViewPortGlitch_Background_Image_Shift_06" ID="{99ED9CC5-527B-4BF4-9CF0-E410FA1CF51D}">
+													<Language>SFX</Language>
+													<AudioFile>UI_ViewPortGlitch_Background_Image_Shift_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="13822155"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_ViewPortGlitch_Background_Image_Shift_06" ID="{99ED9CC5-527B-4BF4-9CF0-E410FA1CF51D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_ViewPortGlitch_Background_Image_Shift_07" ID="{DC4D19D5-DAFF-47B8-94A3-8FBE997AD334}" ShortID="1014263299">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_ViewPortGlitch_Background_Image_Shift_07" ID="{C0BF74D2-6052-4CB5-BB3F-0EF06D2916D6}">
+													<Language>SFX</Language>
+													<AudioFile>UI_ViewPortGlitch_Background_Image_Shift_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="705536980"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_ViewPortGlitch_Background_Image_Shift_07" ID="{C0BF74D2-6052-4CB5-BB3F-0EF06D2916D6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_ViewPortGlitch_Background_Image_Shift_08" ID="{D8F3EB0B-89B2-4A1A-BC29-080AF8FF050C}" ShortID="591455560">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_ViewPortGlitch_Background_Image_Shift_08" ID="{9AA2859D-F3FE-4265-A6D0-E2F9C84FBADE}">
+													<Language>SFX</Language>
+													<AudioFile>UI_ViewPortGlitch_Background_Image_Shift_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="51383337"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_ViewPortGlitch_Background_Image_Shift_08" ID="{9AA2859D-F3FE-4265-A6D0-E2F9C84FBADE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="UI_ViewPortGlitch_Background_Without_High_Frequency" ID="{61059A29-2B18-482C-B374-5CA9FA8C38A8}" ShortID="22927350">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI_ViewPortGlitch_Background_Without_High_Frequency" ID="{FDEABA23-5BD7-4E20-8009-1AA2C89A4772}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="1989.337"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.03559621312197"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.6287548436812"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.998610634081902"/>
+												<Property Name="LoopEnd" Type="Real64" Value="26.777559225011"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>UI_ViewPortGlitch_Background_Without_High_Frequency.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="100298728"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI_ViewPortGlitch_Background_Without_High_Frequency" ID="{FDEABA23-5BD7-4E20-8009-1AA2C89A4772}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<Sound Name="SFX Cordelette Break" ID="{917C3E4A-97C8-4184-A0B9-B74095F21F21}" ShortID="398013414">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cordelette Break" ID="{573616F5-8440-4277-9951-9447DDE0FE6D}">
+									<Language>SFX</Language>
+									<AudioFile>Cordelette Break.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="800373907"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Cordelette Break" ID="{573616F5-8440-4277-9951-9447DDE0FE6D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX Alarme" ID="{997C4902-471D-44D0-ADDC-0679E9195040}" ShortID="843926941">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Alarme 01" ID="{94EEE578-1966-4CD9-B1E7-E6EE90302340}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="370.282"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.252258256274769"/>
+										<Property Name="LoopEnd" Type="Real64" Value="9.57253698811096"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="9.83807199471598"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Alarme 01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="626491943"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Alarme 01" ID="{94EEE578-1966-4CD9-B1E7-E6EE90302340}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX Grand Coordinateur Go Away" ID="{E7A0BFBA-7B88-48FB-96B6-B1518704C98D}" ShortID="855150004">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Grand Coordinateur Go Away" ID="{A3D47F2D-8A85-45ED-B610-52ADE2A387DD}">
+									<Language>SFX</Language>
+									<AudioFile>Grand Coordinateur Go Away.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="940938563"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Grand Coordinateur Go Away" ID="{A3D47F2D-8A85-45ED-B610-52ADE2A387DD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX Elastomobile" ID="{30EAEF01-48A7-4161-9A51-C931229146FD}" ShortID="199776851">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Elastomobile" ID="{DE08F59B-8DB5-436C-8A33-D2F434F80AFB}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.431629045574637"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Elastomobile.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="172281599"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Elastomobile" ID="{DE08F59B-8DB5-436C-8A33-D2F434F80AFB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Voice" ID="{9AFB7CD5-29D5-4F5C-B2B4-0BAE7D9D32E3}" ShortID="757434664">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="24"/>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Arthur 01" ID="{58EAC991-EA6A-4B17-8930-D14133FC9E24}" ShortID="591658413">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Arthur 01" ID="{D03D4B61-06B9-4201-AE69-0FC40157DCA8}">
+									<Language>SFX</Language>
+									<AudioFile>Arthur 01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="296896467"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Arthur 01" ID="{D03D4B61-06B9-4201-AE69-0FC40157DCA8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Arthur 02" ID="{B7560F60-AE9E-44DD-845B-64A85E515DB0}" ShortID="717800110">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Arthur 02" ID="{D974BEA9-3F8B-4D5D-9BE6-1A51C8C5CDC8}">
+									<Language>SFX</Language>
+									<AudioFile>Arthur 02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="22515439"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Arthur 02" ID="{D974BEA9-3F8B-4D5D-9BE6-1A51C8C5CDC8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Clorenthe 01" ID="{AA6EA93F-876B-4345-BF6F-D3621D58348E}" ShortID="1014708825">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Clorenthe 01" ID="{E6E16E65-12D9-4FB4-B18B-32445D146C78}">
+									<Language>SFX</Language>
+									<AudioFile>Clorenthe 01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="326523990"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Clorenthe 01" ID="{E6E16E65-12D9-4FB4-B18B-32445D146C78}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Clorenthe 02" ID="{0D3A8EEB-E562-4044-B716-BDF2A644356A}" ShortID="953435377">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Clorenthe 02" ID="{D4B7E715-BDD2-478F-9009-2454FF81C430}">
+									<Language>SFX</Language>
+									<AudioFile>Clorenthe 02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1040974964"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Clorenthe 02" ID="{D4B7E715-BDD2-478F-9009-2454FF81C430}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Clorenthe 03" ID="{95E844A5-BFCF-49CA-BB72-9534E5244866}" ShortID="123347426">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Clorenthe 03" ID="{A5F092EA-5BFD-4C9D-A8C4-3C293C0D0F25}">
+									<Language>SFX</Language>
+									<AudioFile>Clorenthe 03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1046415851"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Clorenthe 03" ID="{A5F092EA-5BFD-4C9D-A8C4-3C293C0D0F25}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Clorenthe 04" ID="{8E030AF6-31A6-4738-8F46-EBA735AC6995}" ShortID="472997063">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Clorenthe 04" ID="{645AF113-7AAB-491C-B870-0CCECB7E7CD7}">
+									<Language>SFX</Language>
+									<AudioFile>Clorenthe 04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="672756192"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Clorenthe 04" ID="{645AF113-7AAB-491C-B870-0CCECB7E7CD7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Clorenthe 05" ID="{FE72C5B5-2243-47CF-B7A0-22343D1FB200}" ShortID="485599378">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Clorenthe 05" ID="{C1EF9472-94D8-4FF7-AC0F-0BD76FB6C1A8}">
+									<Language>SFX</Language>
+									<AudioFile>Clorenthe 05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="373129056"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Clorenthe 05" ID="{C1EF9472-94D8-4FF7-AC0F-0BD76FB6C1A8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Le Grand Coordinateur 01" ID="{F22179A4-6993-40D3-B314-C00C750A7276}" ShortID="101118753">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Le Grand Coordinateur 01" ID="{3C606DD8-2D60-4DCB-A854-52A8331E5521}">
+									<Language>SFX</Language>
+									<AudioFile>Le Grand Coordinateur 01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="460695711"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Le Grand Coordinateur 01" ID="{3C606DD8-2D60-4DCB-A854-52A8331E5521}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Le Grand Coordinateur 02" ID="{71693C51-7BC9-4130-B237-5AF83E2CE443}" ShortID="5196625">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Le Grand Coordinateur 02" ID="{69AF5637-71DA-4AED-8555-21E2F6549389}">
+									<Language>SFX</Language>
+									<AudioFile>Le Grand Coordinateur 02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="644174054"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Le Grand Coordinateur 02" ID="{69AF5637-71DA-4AED-8555-21E2F6549389}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Le Grand Coordinateur 03" ID="{F9C5EE16-590F-4B26-B632-47A3D42648C6}" ShortID="898273062">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Le Grand Coordinateur 03" ID="{E8727439-8F22-43C4-82DE-F9B0093A20FE}">
+									<Language>SFX</Language>
+									<AudioFile>Le Grand Coordinateur 03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="710216706"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Le Grand Coordinateur 03" ID="{E8727439-8F22-43C4-82DE-F9B0093A20FE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Le Grand Coordinateur 04" ID="{3080A556-F2D3-439B-A78E-F616B9AE5439}" ShortID="696214401">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Le Grand Coordinateur 04" ID="{0DDE08A2-35B2-4C00-9D1A-E4ADA56041DB}">
+									<Language>SFX</Language>
+									<AudioFile>Le Grand Coordinateur 04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="323676971"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Le Grand Coordinateur 04" ID="{0DDE08A2-35B2-4C00-9D1A-E4ADA56041DB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Le Grand Coordinateur 05" ID="{0D5E8D4B-F03D-42BE-A89D-A629A99E14DE}" ShortID="935070718">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Le Grand Coordinateur 05" ID="{0548FBDC-D6A8-44F9-90AE-8CE37D8F8523}">
+									<Language>SFX</Language>
+									<AudioFile>Le Grand Coordinateur 05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="502269870"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Le Grand Coordinateur 05" ID="{0548FBDC-D6A8-44F9-90AE-8CE37D8F8523}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Le Grand Coordinateur 06" ID="{576C7721-E24F-4117-9E73-4FA5DFC54771}" ShortID="587374056">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Le Grand Coordinateur 06" ID="{D5CE1B98-51AF-4007-98FA-FC5B5EBE100A}">
+									<Language>SFX</Language>
+									<AudioFile>Le Grand Coordinateur 06.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="821215181"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Le Grand Coordinateur 06" ID="{D5CE1B98-51AF-4007-98FA-FC5B5EBE100A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Le Grand Coordinateur 07" ID="{10F0E0EF-D1AF-4F15-B469-B81825A77C16}" ShortID="311637566">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Le Grand Coordinateur 07" ID="{13BC35BA-3B34-4DBC-BDE9-374D5499CDA1}">
+									<Language>SFX</Language>
+									<AudioFile>Le Grand Coordinateur 07.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="839517542"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Le Grand Coordinateur 07" ID="{13BC35BA-3B34-4DBC-BDE9-374D5499CDA1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Le Grand Coordinateur 08" ID="{E8CFD393-E7D6-4AC8-9161-83BA64F56E32}" ShortID="156375750">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Le Grand Coordinateur 08" ID="{F41BE408-8A79-4E8C-9689-713E366D6813}">
+									<Language>SFX</Language>
+									<AudioFile>Le Grand Coordinateur 08.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="778884815"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Le Grand Coordinateur 08" ID="{F41BE408-8A79-4E8C-9689-713E366D6813}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Le Grand Coordinateur 09" ID="{5C2E8DC5-0BC9-45F0-828A-321BBD428A9F}" ShortID="124137361">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Le Grand Coordinateur 09" ID="{162DF57A-E9AB-4483-BE9B-15A24B96A796}">
+									<Language>SFX</Language>
+									<AudioFile>Le Grand Coordinateur 09.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="597325428"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Le Grand Coordinateur 09" ID="{162DF57A-E9AB-4483-BE9B-15A24B96A796}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<BlendContainer Name="El Diabolisious" ID="{77045CD0-850C-4D12-B71F-DC35288D6D1A}" ShortID="432992066">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="El Diabolisious" ID="{3AEB166F-6F67-4BAC-A0EB-2C9E5926F734}" ShortID="331289181">
+									<PropertyList>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-50</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+											<ObjectRef Name="Heavy_Metal" ID="{9104321C-9E54-4879-A29A-EF8D46BE9035}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
+											<ObjectRef Name="Fear_no_Evil" ID="{A1F17D99-0801-4F32-B74E-ADB2D9ACC556}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="El Diabolisious" ID="{724F74CD-EBF2-45D5-9BC0-E3D713CE147A}">
+											<Language>SFX</Language>
+											<AudioFile>El Diabolisious.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="739533821"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="El Diabolisious" ID="{724F74CD-EBF2-45D5-9BC0-E3D713CE147A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="El Diabolisious_01" ID="{55203FFC-A52A-4416-88DE-340EB8571683}" ShortID="304136359">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>51</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-350</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="El Diabolisious" ID="{26C079AA-8957-44E9-9E1D-527239081F27}">
+											<Language>SFX</Language>
+											<AudioFile>El Diabolisious.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="739533821"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="El Diabolisious" ID="{26C079AA-8957-44E9-9E1D-527239081F27}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="El Diabolisious_02" ID="{28C39D84-497C-458C-8DD6-B97E090F0C1A}" ShortID="459087892">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>51</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-760</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="El Diabolisious" ID="{FC256BA7-F717-4333-95E2-5C22787EA934}">
+											<Language>SFX</Language>
+											<AudioFile>El Diabolisious.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="739533821"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="El Diabolisious" ID="{FC256BA7-F717-4333-95E2-5C22787EA934}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="Roy" ID="{197B78DC-B0C6-44F4-81A2-847DA58657A0}" ShortID="121681236">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Roy Snoring" ID="{C95FE519-CCB6-4EBE-BA9C-DBD6519E8D40}" ShortID="289770439">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Roy Snoring" ID="{A08D83D4-25E5-44C1-899B-E5DA613FA38A}">
+											<Language>SFX</Language>
+											<AudioFile>Roy Snoring.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="66989830"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Roy Snoring" ID="{A08D83D4-25E5-44C1-899B-E5DA613FA38A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Bruitages" ID="{1557AF76-D421-4FB7-AC59-8E151271BDA8}" ShortID="140792097">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="16"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="Hamster" ID="{6480F2E7-8EA1-4A91-9231-B58B5D59DE5A}" ShortID="1021073311">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Running Hamster Wheel Ending" ID="{B5D7FB4D-28C7-4298-B577-621FB67A7582}" ShortID="97279070">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Running Hamster Wheel Ending" ID="{70965E05-C908-481D-8BF8-6AF1B40F0614}">
+											<Language>SFX</Language>
+											<AudioFile>Running Hamster Wheel Ending.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="693517478"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Running Hamster Wheel Ending" ID="{70965E05-C908-481D-8BF8-6AF1B40F0614}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sleeping Hamster" ID="{171BC3CE-C80E-4F3A-A8AB-286B7CD1AAD5}" ShortID="796803400">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sleeping Hamster" ID="{BF08DF1F-CB95-4479-B1BF-59055C13AF9D}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="1729.471"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.385850066050198"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.900316820783793"/>
+												<Property Name="LoopBegin" Type="Real64" Value="1.47909191985909"/>
+												<Property Name="LoopEnd" Type="Real64" Value="23.1831581351827"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.546620926904447"/>
+												<Property Name="TrimEnd" Type="Real64" Value="24.1156291281374"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Sleeping Hamster.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="465848201"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sleeping Hamster" ID="{BF08DF1F-CB95-4479-B1BF-59055C13AF9D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<BlendContainer Name="Hamster Running" ID="{30EA559F-77D6-415F-90CD-44D795D0125A}" ShortID="134686476">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Running Hamster Wheel Starting" ID="{D0F08572-C44B-40AE-ACB0-70DB720BC802}" ShortID="735144428">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>1720</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Running Hamster Wheel Starting" ID="{3EDB46B3-76E5-4A72-AAA2-C320DAD1650D}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="41.2994826067812"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.0206497413033906"/>
+														<Property Name="LoopEnd" Type="Real64" Value="0.800992596873624"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Running Hamster Wheel Starting.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="967106777"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Running Hamster Wheel Starting" ID="{3EDB46B3-76E5-4A72-AAA2-C320DAD1650D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Running Hamster" ID="{007A87B1-CECB-44D7-B9BC-551B16A56254}" ShortID="486656669">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>530</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Running Hamster" ID="{F29012E0-DD3E-4B2C-B363-C242CB4095A6}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="1037.266"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.63388143989432"/>
+														<Property Name="LoopEnd" Type="Real64" Value="16.5488333058124"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Running Hamster.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="678413032"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Running Hamster" ID="{F29012E0-DD3E-4B2C-B363-C242CB4095A6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</BlendContainer>
 							</ChildrenList>
 						</BlendContainer>
 					</ChildrenList>
