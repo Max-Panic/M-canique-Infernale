@@ -34,13 +34,14 @@ public class InputManager : MonoBehaviour
         {
             if (!echec)
             {
+                
                 boardSwitcher.kingUnlock = true;
                 animator.SetTrigger("Chess");
                 echec = true;
             }
         }
 
-        if (Input.GetKeyUp(KeyCode.JoystickButton1))
+        if (Input.GetKeyDown(KeyCode.JoystickButton1))
         {
       
             if (!tiroir)
@@ -70,7 +71,7 @@ public class InputManager : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyUp(KeyCode.JoystickButton5))
+        if (Input.GetKeyDown(KeyCode.JoystickButton5))
         {
             if (!corde)
             {

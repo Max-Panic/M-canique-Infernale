@@ -12,10 +12,10 @@ public class BoardSwitcher : MonoBehaviour
 
     public bool kingUnlock = false;
     
-    private AK.Wwise.Event playRoySleep;
-    private AK.Wwise.Event stopRoySleep;
-    private AK.Wwise.Event playSkittlesSleep;
-    private AK.Wwise.Event stopSkittlesSleep;
+    public AK.Wwise.Event playRoySleep;
+    public AK.Wwise.Event stopRoySleep;
+    public AK.Wwise.Event playSkittlesSleep;
+    public AK.Wwise.Event stopSkittlesSleep;
 
     private void Update()
     {

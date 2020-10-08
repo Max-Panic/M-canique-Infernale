@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a1d69862de87264a84850151a240560, type: 3}
+  m_Name: 726615D3-1C88-477C-A734-DEC9647A6D00
+  m_EditorClassIdentifier: 
+  objectName: Play_Sleeping_Hamster
+  id: 2175546250
+  guid: 726615D3-1C88-477C-A734-DEC9647A6D00
