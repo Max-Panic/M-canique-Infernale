@@ -11,7 +11,8 @@ public class InputManager : MonoBehaviour
         Sol, Si, Re, Null, Other
     }
 
-    public Animator animator; 
+    public Animator animator;
+    public BoardSwitcher boardSwitcher;
     
     private int _frame = 0;
     private readonly Note[] _successfulNotes = new [] {Note.Sol, Note.Si, Note.Re};
@@ -33,12 +34,13 @@ public class InputManager : MonoBehaviour
         {
             if (!echec)
             {
+                boardSwitcher.kingUnlock = true;
                 animator.SetTrigger("Chess");
                 echec = true;
             }
         }
 
-        if (Input.GetKey(KeyCode.JoystickButton1))
+        if (Input.GetKeyUp(KeyCode.JoystickButton1))
         {
       
             if (!tiroir)
@@ -68,7 +70,7 @@ public class InputManager : MonoBehaviour
             }
         }
 
-        if (Input.GetKey(KeyCode.JoystickButton5))
+        if (Input.GetKeyUp(KeyCode.JoystickButton5))
         {
             if (!corde)
             {
