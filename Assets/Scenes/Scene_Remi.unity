@@ -233,6 +233,50 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!1 &1469391797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1469391799}
+  - component: {fileID: 1469391798}
+  m_Layer: 0
+  m_Name: Guilhem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1469391798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469391797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 669d682013d9fc74f9d8774adbf21735, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 6046424605945915746}
+--- !u!4 &1469391799
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469391797}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 631.91174, y: 140.22232, z: -72.2875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1551470942
 GameObject:
   m_ObjectHideFlags: 0
@@ -404,3 +448,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3180327813cd6bf438d2394775439862, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &6046424605945915746 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6046424604647819683, guid: b3e9a43b9441e6b4c9291b9cf05747d5,
+    type: 3}
+  m_PrefabInstance: {fileID: 6046424605945915743}
+  m_PrefabAsset: {fileID: 0}

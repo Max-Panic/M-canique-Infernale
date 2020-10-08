@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class Board : MonoBehaviour
 {
-    public SpriteRenderer image;
     public Transform center;
 
     public Vector3 getCenter()
