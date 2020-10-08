@@ -127,6 +127,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stop_Sleeping_Hamster" ID="{74285E8A-53CB-43F8-9332-9A1EEE6ACFEE}">
+							<ChildrenList>
+								<Action Name="" ID="{3995011E-BB53-4CDC-9497-59446493EA1E}" ShortID="580796841">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sleeping Hamster" ID="{171BC3CE-C80E-4F3A-A8AB-286B7CD1AAD5}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Personnages" ID="{6894B138-B977-458E-B2AA-2C720B634094}" ShortID="299860282">
@@ -328,6 +342,53 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Roy" ID="{197B78DC-B0C6-44F4-81A2-847DA58657A0}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Roy_Snoring" ID="{CC17801A-FC00-4012-B619-074EB520A91E}">
+							<ChildrenList>
+								<Action Name="" ID="{A0136574-52DD-4F42-A811-F7E0508210CD}" ShortID="598545719">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Roy" ID="{197B78DC-B0C6-44F4-81A2-847DA58657A0}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambiance" ID="{FE57FB37-C4FD-48BA-835B-729BC0AB1AA4}" ShortID="912086417">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Stop_Ambiance_Stand" ID="{29ACBFD1-FF04-4481-9B40-8C374711A394}">
+							<ChildrenList>
+								<Action Name="" ID="{411F8BCF-90D7-461F-82F7-F92D2550B468}" ShortID="765067569">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambiance Stand" ID="{6D9FD172-529C-4CF6-9D2A-73CA093658BA}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ambiance_Stand" ID="{9A76A555-4C52-48C3-BF6E-F50F39B913C3}">
+							<ChildrenList>
+								<Action Name="" ID="{B29F781E-387E-441A-AF03-881E169FEB05}" ShortID="956081683">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambiance Stand" ID="{6D9FD172-529C-4CF6-9D2A-73CA093658BA}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
