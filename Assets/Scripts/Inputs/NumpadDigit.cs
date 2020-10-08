@@ -8,16 +8,14 @@ public class NumpadDigit : MonoBehaviour
 {
 
     public int numID;
+    public NumpadCode numpadCode;
 
     private void OnMouseDown()
     {
-        Debug.Log("test");
+        if (numpadCode.AddDigit(numID))
+        {
+            numpadCode.CheckDigit();
+        }
     }
-
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
