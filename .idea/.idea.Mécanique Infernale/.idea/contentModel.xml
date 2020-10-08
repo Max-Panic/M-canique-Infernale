@@ -19,6 +19,7 @@
         <e p="Scripts" t="Include">
           <e p="Inputs" t="Include">
             <e p="InputManager.cs" t="Include" />
+            <e p="NavigationArrow.cs" t="Include" />
             <e p="NumpadCode.cs" t="Include" />
             <e p="NumpadDigit.cs" t="Include" />
           </e>

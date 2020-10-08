@@ -40,7 +40,6 @@ public class InputManager : MonoBehaviour
       
             if (!tiroir)
             {
-                Debug.Log("test");
                 animator.SetTrigger("Tiroir");
                 tiroir = true;
             }
