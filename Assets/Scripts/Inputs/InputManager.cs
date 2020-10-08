@@ -26,6 +26,9 @@ public class InputManager : MonoBehaviour
     void Update()
     {
 
+        if(eau)
+            animator.SetBool("Water", false);
+        
         if (Input.GetKey(KeyCode.JoystickButton0))
         {
             if (!echec)
@@ -40,7 +43,6 @@ public class InputManager : MonoBehaviour
       
             if (!tiroir)
             {
-                Debug.Log("test");
                 animator.SetTrigger("Tiroir");
                 tiroir = true;
             }
@@ -53,6 +55,7 @@ public class InputManager : MonoBehaviour
             {
                 animator.SetBool("Water", true);
                 eau = true;
+               
             }
         }
 
