@@ -1,31 +1,275 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>C:\Users\ELE5d5ab19ee5329\Documents\WorkshopLaNef\M-canique-Infernale\M-canique-Infernale_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\ELE5d5ab19ee5329\Documents\WorkshopLaNef\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\ELE5d5ab19ee5329\Documents\WorkshopLaNef\M-canique-Infernale\M-canique-Infernale_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\PROJETS EN COURS\Workshop - Art &amp; Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\PROJETS EN COURS\Workshop - Art &amp; Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\PROJETS EN COURS\Workshop - Art &amp; Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\ELE5d5ab19ee5329\Documents\WorkshopLaNef\M-canique-Infernale\M-canique-Infernale_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\PROJETS EN COURS\Workshop - Art &amp; Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="4204904655">
+		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2367430569" Language="SFX" Hash="67286473">
+		<SoundBank Id="2367430569" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\MainSNB</ObjectPath>
 			<ShortName>MainSNB</ShortName>
 			<Path>MainSNB.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2079604844" Name="Play_Arthur_01" ObjectPath="\Events\Default Work Unit\Personnages\Play_Arthur_01" DurationType="OneShot" DurationMin="4.530000" DurationMax="4.530000">
+					<IncludedMemoryFiles>
+						<File Id="296896467" Language="SFX">
+							<ShortName>Arthur 01.wav</ShortName>
+							<Path>SFX\Arthur 01_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2079604847" Name="Play_Arthur_02" ObjectPath="\Events\Default Work Unit\Personnages\Play_Arthur_02" DurationType="OneShot" DurationMin="1.463854" DurationMax="1.463854">
+					<IncludedMemoryFiles>
+						<File Id="22515439" Language="SFX">
+							<ShortName>Arthur 02.wav</ShortName>
+							<Path>SFX\Arthur 02_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="192823024" Name="Play_Clorenthe_01" ObjectPath="\Events\Default Work Unit\Personnages\Play_Clorenthe_01" DurationType="OneShot" DurationMin="12.372396" DurationMax="12.372396">
+					<IncludedMemoryFiles>
+						<File Id="326523990" Language="SFX">
+							<ShortName>Clorenthe 01.wav</ShortName>
+							<Path>SFX\Clorenthe 01_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="192823027" Name="Play_Clorenthe_02" ObjectPath="\Events\Default Work Unit\Personnages\Play_Clorenthe_02" DurationType="OneShot" DurationMin="3.580000" DurationMax="3.580000">
+					<IncludedMemoryFiles>
+						<File Id="1040974964" Language="SFX">
+							<ShortName>Clorenthe 02.wav</ShortName>
+							<Path>SFX\Clorenthe 02_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="192823026" Name="Play_Clorenthe_03" ObjectPath="\Events\Default Work Unit\Personnages\Play_Clorenthe_03" DurationType="OneShot" DurationMin="2.794875" DurationMax="2.794875">
+					<IncludedMemoryFiles>
+						<File Id="1046415851" Language="SFX">
+							<ShortName>Clorenthe 03.wav</ShortName>
+							<Path>SFX\Clorenthe 03_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="192823029" Name="Play_Clorenthe_04" ObjectPath="\Events\Default Work Unit\Personnages\Play_Clorenthe_04" DurationType="OneShot" DurationMin="2.632125" DurationMax="2.632125">
+					<IncludedMemoryFiles>
+						<File Id="672756192" Language="SFX">
+							<ShortName>Clorenthe 04.wav</ShortName>
+							<Path>SFX\Clorenthe 04_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="192823028" Name="Play_Clorenthe_05" ObjectPath="\Events\Default Work Unit\Personnages\Play_Clorenthe_05" DurationType="OneShot" DurationMin="8.895812" DurationMax="8.895812">
+					<IncludedMemoryFiles>
+						<File Id="373129056" Language="SFX">
+							<ShortName>Clorenthe 05.wav</ShortName>
+							<Path>SFX\Clorenthe 05_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1290384421" Name="Play_El_Diabolisious" ObjectPath="\Events\Default Work Unit\Personnages\Play_El_Diabolisious" DurationType="OneShot" DurationMin="21.632074" DurationMax="21.632074">
+					<IncludedMemoryFiles>
+						<File Id="739533821" Language="SFX">
+							<ShortName>El Diabolisious.wav</ShortName>
+							<Path>SFX\El Diabolisious_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2502154702" Name="Play_Le_Grand_Coordinateur_01" ObjectPath="\Events\Default Work Unit\Personnages\Play_Le_Grand_Coordinateur_01" DurationType="OneShot" DurationMin="28.086187" DurationMax="28.086187">
+					<IncludedMemoryFiles>
+						<File Id="460695711" Language="SFX">
+							<ShortName>Le Grand Coordinateur 01.wav</ShortName>
+							<Path>SFX\Le Grand Coordinateur 01_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2502154701" Name="Play_Le_Grand_Coordinateur_02" ObjectPath="\Events\Default Work Unit\Personnages\Play_Le_Grand_Coordinateur_02" DurationType="OneShot" DurationMin="11.336291" DurationMax="11.336291">
+					<IncludedMemoryFiles>
+						<File Id="644174054" Language="SFX">
+							<ShortName>Le Grand Coordinateur 02.wav</ShortName>
+							<Path>SFX\Le Grand Coordinateur 02_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2502154700" Name="Play_Le_Grand_Coordinateur_03" ObjectPath="\Events\Default Work Unit\Personnages\Play_Le_Grand_Coordinateur_03" DurationType="OneShot" DurationMin="5.577209" DurationMax="5.577209">
+					<IncludedMemoryFiles>
+						<File Id="710216706" Language="SFX">
+							<ShortName>Le Grand Coordinateur 03.wav</ShortName>
+							<Path>SFX\Le Grand Coordinateur 03_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2502154699" Name="Play_Le_Grand_Coordinateur_04" ObjectPath="\Events\Default Work Unit\Personnages\Play_Le_Grand_Coordinateur_04" DurationType="OneShot" DurationMin="12.616396" DurationMax="12.616396">
+					<IncludedMemoryFiles>
+						<File Id="323676971" Language="SFX">
+							<ShortName>Le Grand Coordinateur 04.wav</ShortName>
+							<Path>SFX\Le Grand Coordinateur 04_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2502154698" Name="Play_Le_Grand_Coordinateur_05" ObjectPath="\Events\Default Work Unit\Personnages\Play_Le_Grand_Coordinateur_05" DurationType="OneShot" DurationMin="10.314104" DurationMax="10.314104">
+					<IncludedMemoryFiles>
+						<File Id="502269870" Language="SFX">
+							<ShortName>Le Grand Coordinateur 05.wav</ShortName>
+							<Path>SFX\Le Grand Coordinateur 05_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2502154697" Name="Play_Le_Grand_Coordinateur_06" ObjectPath="\Events\Default Work Unit\Personnages\Play_Le_Grand_Coordinateur_06" DurationType="OneShot" DurationMin="12.680646" DurationMax="12.680646">
+					<IncludedMemoryFiles>
+						<File Id="821215181" Language="SFX">
+							<ShortName>Le Grand Coordinateur 06.wav</ShortName>
+							<Path>SFX\Le Grand Coordinateur 06_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2502154696" Name="Play_Le_Grand_Coordinateur_07" ObjectPath="\Events\Default Work Unit\Personnages\Play_Le_Grand_Coordinateur_07" DurationType="OneShot" DurationMin="4.476666" DurationMax="4.476666">
+					<IncludedMemoryFiles>
+						<File Id="839517542" Language="SFX">
+							<ShortName>Le Grand Coordinateur 07.wav</ShortName>
+							<Path>SFX\Le Grand Coordinateur 07_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2502154695" Name="Play_Le_Grand_Coordinateur_08" ObjectPath="\Events\Default Work Unit\Personnages\Play_Le_Grand_Coordinateur_08" DurationType="OneShot" DurationMin="7.364896" DurationMax="7.364896">
+					<IncludedMemoryFiles>
+						<File Id="778884815" Language="SFX">
+							<ShortName>Le Grand Coordinateur 08.wav</ShortName>
+							<Path>SFX\Le Grand Coordinateur 08_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2502154694" Name="Play_Le_Grand_Coordinateur_09" ObjectPath="\Events\Default Work Unit\Personnages\Play_Le_Grand_Coordinateur_09" DurationType="OneShot" DurationMin="17.680063" DurationMax="17.680063">
+					<IncludedMemoryFiles>
+						<File Id="597325428" Language="SFX">
+							<ShortName>Le Grand Coordinateur 09.wav</ShortName>
+							<Path>SFX\Le Grand Coordinateur 09_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2094811461" Name="Play_Roy_Snoring" ObjectPath="\Events\Default Work Unit\Personnages\Play_Roy_Snoring" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="66989830" Language="SFX">
+							<ShortName>Roy Snoring.wav</ShortName>
+							<Path>SFX\Roy Snoring_073B4D0C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="358472035" Name="Play_Running_Hamster_Starting" ObjectPath="\Events\Default Work Unit\Hamster\Play_Running_Hamster_Starting" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="678413032" Language="SFX">
+							<ShortName>Running Hamster.wav</ShortName>
+							<Path>SFX\Running Hamster_A674ECDE.wem</Path>
+						</File>
+						<File Id="967106777" Language="SFX">
+							<ShortName>Running Hamster Wheel Starting.wav</ShortName>
+							<Path>SFX\Running Hamster Wheel Starting_04BBEB77.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2221930698" Name="Play_SFX_Alarme" ObjectPath="\Events\Default Work Unit\SFX\Play_SFX_Alarme" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="626491943" Language="SFX">
+							<ShortName>Alarme 01.wav</ShortName>
+							<Path>SFX\Alarme 01_D7A7803E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1557419039" Name="Play_SFX_Cordelette_Break" ObjectPath="\Events\Default Work Unit\SFX\Play_SFX_Cordelette_Break" DurationType="OneShot" DurationMin="3.870000" DurationMax="3.870000">
+					<IncludedMemoryFiles>
+						<File Id="800373907" Language="SFX">
+							<ShortName>Cordelette Break.wav</ShortName>
+							<Path>SFX\Cordelette Break_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1919392118" Name="Play_SFX_Elastomobile_Go_Away" ObjectPath="\Events\Default Work Unit\SFX\Play_SFX_Elastomobile_Go_Away" DurationType="OneShot" DurationMin="6.406729" DurationMax="6.406729">
+					<IncludedMemoryFiles>
+						<File Id="172281599" Language="SFX">
+							<ShortName>Elastomobile.wav</ShortName>
+							<Path>SFX\Elastomobile_2010EB23.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4163194645" Name="Play_SFX_Glitch" ObjectPath="\Events\Default Work Unit\SFX\Play_SFX_Glitch" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="13822155" Language="SFX">
+							<ShortName>UI_ViewPortGlitch_Background_Image_Shift_06.wav</ShortName>
+							<Path>SFX\UI_ViewPortGlitch_Background_Image_Shift_06_755F56E2.wem</Path>
+						</File>
+						<File Id="51383337" Language="SFX">
+							<ShortName>UI_ViewPortGlitch_Background_Image_Shift_08.wav</ShortName>
+							<Path>SFX\UI_ViewPortGlitch_Background_Image_Shift_08_755F56E2.wem</Path>
+						</File>
+						<File Id="100298728" Language="SFX">
+							<ShortName>UI_ViewPortGlitch_Background_Without_High_Frequency.wav</ShortName>
+							<Path>SFX\UI_ViewPortGlitch_Background_Without_High_Frequency_946ABBFB.wem</Path>
+						</File>
+						<File Id="120506928" Language="SFX">
+							<ShortName>UI_ViewPortGlitch_Background_Image_Shift_03.wav</ShortName>
+							<Path>SFX\UI_ViewPortGlitch_Background_Image_Shift_03_755F56E2.wem</Path>
+						</File>
+						<File Id="135057003" Language="SFX">
+							<ShortName>UI_ViewPortGlitch_Background_Image_Shift_02.wav</ShortName>
+							<Path>SFX\UI_ViewPortGlitch_Background_Image_Shift_02_755F56E2.wem</Path>
+						</File>
+						<File Id="291758090" Language="SFX">
+							<ShortName>UI_ViewPortGlitch_Background_Image_Shift_04.wav</ShortName>
+							<Path>SFX\UI_ViewPortGlitch_Background_Image_Shift_04_755F56E2.wem</Path>
+						</File>
+						<File Id="676431798" Language="SFX">
+							<ShortName>UI_ViewPortGlitch_Background_Image_Shift_01.wav</ShortName>
+							<Path>SFX\UI_ViewPortGlitch_Background_Image_Shift_01_755F56E2.wem</Path>
+						</File>
+						<File Id="705536980" Language="SFX">
+							<ShortName>UI_ViewPortGlitch_Background_Image_Shift_07.wav</ShortName>
+							<Path>SFX\UI_ViewPortGlitch_Background_Image_Shift_07_755F56E2.wem</Path>
+						</File>
+						<File Id="948843778" Language="SFX">
+							<ShortName>UI_ViewPortGlitch_Background_Image_Shift_05.wav</ShortName>
+							<Path>SFX\UI_ViewPortGlitch_Background_Image_Shift_05_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="536964290" Name="Play_SFX_Grand_Coordinateur_Go_Away" ObjectPath="\Events\Default Work Unit\SFX\Play_SFX_Grand_Coordinateur_Go_Away" DurationType="OneShot" DurationMin="1.010417" DurationMax="1.010417">
+					<IncludedMemoryFiles>
+						<File Id="940938563" Language="SFX">
+							<ShortName>Grand Coordinateur Go Away.wav</ShortName>
+							<Path>SFX\Grand Coordinateur Go Away_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2175546250" Name="Play_Sleeping_Hamster" ObjectPath="\Events\Default Work Unit\Hamster\Play_Sleeping_Hamster" DurationType="OneShot" DurationMin="23.569008" DurationMax="23.569008">
+					<IncludedMemoryFiles>
+						<File Id="465848201" Language="SFX">
+							<ShortName>Sleeping Hamster.wav</ShortName>
+							<Path>SFX\Sleeping Hamster_97820F7B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3018450665" Name="SFX_Test" ObjectPath="\Events\Default Work Unit\SFX\SFX_Test" DurationType="OneShot" DurationMin="212.853333" DurationMax="212.853333">
 					<IncludedMemoryFiles>
 						<File Id="1059915605" Language="SFX">
 							<ShortName>RecordDeathStare.wav</ShortName>
 							<Path>SFX\RecordDeathStare_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3134580886" Name="Stop_Running_Hamster_Wheel" ObjectPath="\Events\Default Work Unit\Hamster\Stop_Running_Hamster_Wheel" DurationType="OneShot" DurationMin="3.138854" DurationMax="3.138854">
+					<IncludedMemoryFiles>
+						<File Id="693517478" Language="SFX">
+							<ShortName>Running Hamster Wheel Ending.wav</ShortName>
+							<Path>SFX\Running Hamster Wheel Ending_755F56E2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
