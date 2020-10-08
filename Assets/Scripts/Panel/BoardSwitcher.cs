@@ -6,5 +6,8 @@ public class BoardSwitcher : MonoBehaviour
 {
     public Board[] boards;
 
-    
+    public void launchBoard()
+    {
+        
+    }
 }

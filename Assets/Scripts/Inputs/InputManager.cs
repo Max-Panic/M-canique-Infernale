@@ -18,8 +18,8 @@ public class InputManager : MonoBehaviour
     {
         foreach (KeyCode kcode in Enum.GetValues(typeof(KeyCode)))
         {
-            if (Input.GetKey(kcode))
-                Debug.Log("KeyCode down: " + kcode);
+            if (Input.GetKey(kcode)) 
+            /*Debug.Log("KeyCode down: " + kcode)*/;
         }
         
         FixedUpdate();
