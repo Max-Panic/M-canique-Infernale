@@ -11,26 +11,69 @@ public class InputManager : MonoBehaviour
         Sol, Si, Re, Null, Other
     }
 
+    public Animator animator; 
+    
     private int _frame = 0;
     private readonly Note[] _successfulNotes = new [] {Note.Sol, Note.Si, Note.Re};
     private Note[] _currentNotes = new[] {Note.Null, Note.Null, Note.Null};
+
+    private bool tiroir = false;
+    private bool eau = false;
+    private bool cle = false;
+    private bool echec = false;
+    private bool corde = false;
+    
     void Update()
     {
 
         if (Input.GetKey(KeyCode.JoystickButton0))
-            ;
+        {
+            if (!echec)
+            {
+                animator.SetTrigger("Chess");
+                echec = true;
+            }
+        }
+
+        if (Input.GetKey(KeyCode.JoystickButton1))
+        {
+      
+            if (!tiroir)
+            {
+                Debug.Log("test");
+                animator.SetTrigger("Tiroir");
+                tiroir = true;
+            }
+            
+        }
+
+        if (Input.GetKey(KeyCode.JoystickButton3))
+        {
+            if (!eau)
+            {
+                animator.SetBool("Water", true);
+                eau = true;
+            }
+        }
+
+        if (Input.GetKey(KeyCode.JoystickButton4))
+        {
+            if (!cle)
+            {
+               // animator.SetTrigger("");
+                cle = true;
+            }
+        }
+
+        if (Input.GetKey(KeyCode.JoystickButton5))
+        {
+            if (!corde)
+            {
+                animator.SetTrigger("Rope");
+                corde = true;
+            }
+        }
         
-        if (Input.GetKey(KeyCode.JoystickButton0))
-            ;
-        
-        if (Input.GetKey(KeyCode.JoystickButton0))
-            ;
-        
-        if (Input.GetKey(KeyCode.JoystickButton0))
-            ;
-        
-        if (Input.GetKey(KeyCode.JoystickButton0))
-            ;
         FixedUpdate();
 
         _frame++;
@@ -104,7 +147,7 @@ public class InputManager : MonoBehaviour
         }
          
         if(win)
-            Debug.Log("ouaaaai...");
+            animator.SetBool("Water", true);
         
     }
 

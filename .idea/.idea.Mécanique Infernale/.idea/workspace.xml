@@ -26,11 +26,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4e4c4b91-b2a1-4546-8ef8-39feff8fc52a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Mécanique Infernale/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mécanique Infernale/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/GrandCoordinateur.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/GrandCoordinateur.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inputs/InputManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inputs/InputManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inputs/NumpadCode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inputs/NumpadCode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inputs/NumpadDigit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inputs/NumpadDigit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/7.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/7.PNG" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +61,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -104,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602075592733</updated>
       <workItem from="1602075598321" duration="7940000" />
-      <workItem from="1602145743580" duration="8596000" />
+      <workItem from="1602145743580" duration="10388000" />
     </task>
     <servers />
   </component>
