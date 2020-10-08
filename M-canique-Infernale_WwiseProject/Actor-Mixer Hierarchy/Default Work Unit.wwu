@@ -49,6 +49,396 @@
 						</BlendContainer>
 					</ChildrenList>
 				</ActorMixer>
+				<ActorMixer Name="Voice" ID="{9AFB7CD5-29D5-4F5C-B2B4-0BAE7D9D32E3}" ShortID="757434664">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="24"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Arthur 01" ID="{58EAC991-EA6A-4B17-8930-D14133FC9E24}" ShortID="591658413">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Arthur 01" ID="{D03D4B61-06B9-4201-AE69-0FC40157DCA8}">
+									<Language>SFX</Language>
+									<AudioFile>Arthur 01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="296896467"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Arthur 01" ID="{D03D4B61-06B9-4201-AE69-0FC40157DCA8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Arthur 02" ID="{B7560F60-AE9E-44DD-845B-64A85E515DB0}" ShortID="717800110">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Arthur 02" ID="{D974BEA9-3F8B-4D5D-9BE6-1A51C8C5CDC8}">
+									<Language>SFX</Language>
+									<AudioFile>Arthur 02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="22515439"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Arthur 02" ID="{D974BEA9-3F8B-4D5D-9BE6-1A51C8C5CDC8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Clorenthe 01" ID="{AA6EA93F-876B-4345-BF6F-D3621D58348E}" ShortID="1014708825">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Clorenthe 01" ID="{E6E16E65-12D9-4FB4-B18B-32445D146C78}">
+									<Language>SFX</Language>
+									<AudioFile>Clorenthe 01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="326523990"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Clorenthe 01" ID="{E6E16E65-12D9-4FB4-B18B-32445D146C78}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Clorenthe 02" ID="{0D3A8EEB-E562-4044-B716-BDF2A644356A}" ShortID="953435377">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Clorenthe 02" ID="{D4B7E715-BDD2-478F-9009-2454FF81C430}">
+									<Language>SFX</Language>
+									<AudioFile>Clorenthe 02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1040974964"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Clorenthe 02" ID="{D4B7E715-BDD2-478F-9009-2454FF81C430}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Clorenthe 03" ID="{95E844A5-BFCF-49CA-BB72-9534E5244866}" ShortID="123347426">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Clorenthe 03" ID="{A5F092EA-5BFD-4C9D-A8C4-3C293C0D0F25}">
+									<Language>SFX</Language>
+									<AudioFile>Clorenthe 03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1046415851"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Clorenthe 03" ID="{A5F092EA-5BFD-4C9D-A8C4-3C293C0D0F25}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Clorenthe 04" ID="{8E030AF6-31A6-4738-8F46-EBA735AC6995}" ShortID="472997063">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Clorenthe 04" ID="{645AF113-7AAB-491C-B870-0CCECB7E7CD7}">
+									<Language>SFX</Language>
+									<AudioFile>Clorenthe 04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="672756192"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Clorenthe 04" ID="{645AF113-7AAB-491C-B870-0CCECB7E7CD7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Clorenthe 05" ID="{FE72C5B5-2243-47CF-B7A0-22343D1FB200}" ShortID="485599378">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Clorenthe 05" ID="{C1EF9472-94D8-4FF7-AC0F-0BD76FB6C1A8}">
+									<Language>SFX</Language>
+									<AudioFile>Clorenthe 05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="373129056"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Clorenthe 05" ID="{C1EF9472-94D8-4FF7-AC0F-0BD76FB6C1A8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="El Diabolisious" ID="{3AEB166F-6F67-4BAC-A0EB-2C9E5926F734}" ShortID="331289181">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="El Diabolisious" ID="{724F74CD-EBF2-45D5-9BC0-E3D713CE147A}">
+									<Language>SFX</Language>
+									<AudioFile>El Diabolisious.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="739533821"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="El Diabolisious" ID="{724F74CD-EBF2-45D5-9BC0-E3D713CE147A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Le Grand Coordinateur 01" ID="{F22179A4-6993-40D3-B314-C00C750A7276}" ShortID="101118753">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Le Grand Coordinateur 01" ID="{3C606DD8-2D60-4DCB-A854-52A8331E5521}">
+									<Language>SFX</Language>
+									<AudioFile>Le Grand Coordinateur 01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="460695711"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Le Grand Coordinateur 01" ID="{3C606DD8-2D60-4DCB-A854-52A8331E5521}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Le Grand Coordinateur 02" ID="{71693C51-7BC9-4130-B237-5AF83E2CE443}" ShortID="5196625">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Le Grand Coordinateur 02" ID="{69AF5637-71DA-4AED-8555-21E2F6549389}">
+									<Language>SFX</Language>
+									<AudioFile>Le Grand Coordinateur 02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="644174054"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Le Grand Coordinateur 02" ID="{69AF5637-71DA-4AED-8555-21E2F6549389}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Le Grand Coordinateur 03" ID="{F9C5EE16-590F-4B26-B632-47A3D42648C6}" ShortID="898273062">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Le Grand Coordinateur 03" ID="{E8727439-8F22-43C4-82DE-F9B0093A20FE}">
+									<Language>SFX</Language>
+									<AudioFile>Le Grand Coordinateur 03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="710216706"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Le Grand Coordinateur 03" ID="{E8727439-8F22-43C4-82DE-F9B0093A20FE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Le Grand Coordinateur 04" ID="{3080A556-F2D3-439B-A78E-F616B9AE5439}" ShortID="696214401">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Le Grand Coordinateur 04" ID="{0DDE08A2-35B2-4C00-9D1A-E4ADA56041DB}">
+									<Language>SFX</Language>
+									<AudioFile>Le Grand Coordinateur 04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="323676971"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Le Grand Coordinateur 04" ID="{0DDE08A2-35B2-4C00-9D1A-E4ADA56041DB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Le Grand Coordinateur 05" ID="{0D5E8D4B-F03D-42BE-A89D-A629A99E14DE}" ShortID="935070718">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Le Grand Coordinateur 05" ID="{0548FBDC-D6A8-44F9-90AE-8CE37D8F8523}">
+									<Language>SFX</Language>
+									<AudioFile>Le Grand Coordinateur 05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="502269870"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Le Grand Coordinateur 05" ID="{0548FBDC-D6A8-44F9-90AE-8CE37D8F8523}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Le Grand Coordinateur 06" ID="{576C7721-E24F-4117-9E73-4FA5DFC54771}" ShortID="587374056">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Le Grand Coordinateur 06" ID="{D5CE1B98-51AF-4007-98FA-FC5B5EBE100A}">
+									<Language>SFX</Language>
+									<AudioFile>Le Grand Coordinateur 06.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="821215181"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Le Grand Coordinateur 06" ID="{D5CE1B98-51AF-4007-98FA-FC5B5EBE100A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Le Grand Coordinateur 07" ID="{10F0E0EF-D1AF-4F15-B469-B81825A77C16}" ShortID="311637566">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Le Grand Coordinateur 07" ID="{13BC35BA-3B34-4DBC-BDE9-374D5499CDA1}">
+									<Language>SFX</Language>
+									<AudioFile>Le Grand Coordinateur 07.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="839517542"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Le Grand Coordinateur 07" ID="{13BC35BA-3B34-4DBC-BDE9-374D5499CDA1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Le Grand Coordinateur 08" ID="{E8CFD393-E7D6-4AC8-9161-83BA64F56E32}" ShortID="156375750">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Le Grand Coordinateur 08" ID="{F41BE408-8A79-4E8C-9689-713E366D6813}">
+									<Language>SFX</Language>
+									<AudioFile>Le Grand Coordinateur 08.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="778884815"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Le Grand Coordinateur 08" ID="{F41BE408-8A79-4E8C-9689-713E366D6813}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Le Grand Coordinateur 09" ID="{5C2E8DC5-0BC9-45F0-828A-321BBD428A9F}" ShortID="124137361">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Le Grand Coordinateur 09" ID="{162DF57A-E9AB-4483-BE9B-15A24B96A796}">
+									<Language>SFX</Language>
+									<AudioFile>Le Grand Coordinateur 09.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="597325428"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Le Grand Coordinateur 09" ID="{162DF57A-E9AB-4483-BE9B-15A24B96A796}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
