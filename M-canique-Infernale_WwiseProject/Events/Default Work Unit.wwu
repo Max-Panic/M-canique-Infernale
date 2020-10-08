@@ -394,6 +394,31 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Ambiance_Monde_des_Robots" ID="{0875ED35-7E0C-4FA6-A96D-046A0E7D5DC3}">
+							<ChildrenList>
+								<Action Name="" ID="{B2F9B3D7-63FE-4B4F-9D60-A125479A8B9D}" ShortID="718244653">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambiance Monde des Robots" ID="{FB9C226C-88A2-4417-BD23-1D5739B2968D}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Ambiance_Monde_des_Robots" ID="{583B4AC3-1394-417D-8B55-5BD75DB5D31D}">
+							<ChildrenList>
+								<Action Name="" ID="{D6292716-7745-4B1F-9725-4788981BF88A}" ShortID="567767540">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambiance Monde des Robots" ID="{FB9C226C-88A2-4417-BD23-1D5739B2968D}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

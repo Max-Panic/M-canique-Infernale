@@ -17,6 +17,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2094811461	Play_Roy_Snoring			\Default Work Unit\Personnages\Play_Roy_Snoring	
 	2175546250	Play_Sleeping_Hamster			\Default Work Unit\Hamster\Play_Sleeping_Hamster	
 	2221930698	Play_SFX_Alarme			\Default Work Unit\SFX\Play_SFX_Alarme	
+	2321060503	Play_Ambiance_Monde_des_Robots			\Default Work Unit\Ambiance\Play_Ambiance_Monde_des_Robots	
 	2502154694	Play_Le_Grand_Coordinateur_09			\Default Work Unit\Personnages\Play_Le_Grand_Coordinateur_09	
 	2502154695	Play_Le_Grand_Coordinateur_08			\Default Work Unit\Personnages\Play_Le_Grand_Coordinateur_08	
 	2502154696	Play_Le_Grand_Coordinateur_07			\Default Work Unit\Personnages\Play_Le_Grand_Coordinateur_07	
@@ -26,6 +27,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2502154700	Play_Le_Grand_Coordinateur_03			\Default Work Unit\Personnages\Play_Le_Grand_Coordinateur_03	
 	2502154701	Play_Le_Grand_Coordinateur_02			\Default Work Unit\Personnages\Play_Le_Grand_Coordinateur_02	
 	2502154702	Play_Le_Grand_Coordinateur_01			\Default Work Unit\Personnages\Play_Le_Grand_Coordinateur_01	
+	2968199849	Stop_Ambiance_Monde_des_Robots			\Default Work Unit\Ambiance\Stop_Ambiance_Monde_des_Robots	
 	3018450665	SFX_Test			\Default Work Unit\SFX\SFX_Test	
 	3134580886	Stop_Running_Hamster_Wheel			\Default Work Unit\Hamster\Stop_Running_Hamster_Wheel	
 	3741257152	Stop_Sleeping_Hamster			\Default Work Unit\Hamster\Stop_Sleeping_Hamster	
@@ -58,6 +60,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	495393361	Ambiance Night Chamber	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\SFX\Ambiance Night Chamber_F080479C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Ambiance Stand\Bed\Ambiance Night Chamber		2514989
 	502269870	Le Grand Coordinateur 05	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\SFX\Le Grand Coordinateur 05_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Le Grand Coordinateur\Le Grand Coordinateur 05		516194
 	528635906	Ambiance Starting	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\SFX\Ambiance Starting_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Ambiance Stand\Bed\Ambiance Starting		129142
+	553918226	Ambiance Monde des Robots	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\SFX\Ambiance Monde des Robots_07581391.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Ambiance Monde des Robots\Ambiance Monde des Robots		3223189
 	597325428	Le Grand Coordinateur 09	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\SFX\Le Grand Coordinateur 09_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Le Grand Coordinateur\Le Grand Coordinateur 09		959441
 	626491943	SFX Alarme	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\SFX\Alarme 01_D7A7803E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX Alarme		606692
 	640823989	Wood Crakles 03	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\SFX\Wood Crakles 03_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Ambiance Stand\Wood Crakles\Wood Crakles 03		391554

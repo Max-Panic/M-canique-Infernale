@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_AMBIANCE_MONDE_DES_ROBOTS = 2321060503U;
         static const AkUniqueID PLAY_AMBIANCE_STAND = 722545231U;
         static const AkUniqueID PLAY_ARTHUR_01 = 2079604844U;
         static const AkUniqueID PLAY_ARTHUR_02 = 2079604847U;
@@ -40,6 +41,7 @@ namespace AK
         static const AkUniqueID PLAY_SFX_GRAND_COORDINATEUR_GO_AWAY = 536964290U;
         static const AkUniqueID PLAY_SLEEPING_HAMSTER = 2175546250U;
         static const AkUniqueID SFX_TEST = 3018450665U;
+        static const AkUniqueID STOP_AMBIANCE_MONDE_DES_ROBOTS = 2968199849U;
         static const AkUniqueID STOP_AMBIANCE_STAND = 1323140453U;
         static const AkUniqueID STOP_ROY_SNORING = 1580981595U;
         static const AkUniqueID STOP_RUNNING_HAMSTER_WHEEL = 3134580886U;
