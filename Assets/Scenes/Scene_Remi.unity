@@ -228,6 +228,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 67098643835440250, guid: b3e9a43b9441e6b4c9291b9cf05747d5,
+        type: 3}
+      propertyPath: boardSwitcher
+      value: 
+      objectReference: {fileID: 1469391800}
     - target: {fileID: 6046424604647819684, guid: b3e9a43b9441e6b4c9291b9cf05747d5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -303,6 +308,11 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.68435574
       objectReference: {fileID: 0}
+    - target: {fileID: 7432748919038468763, guid: b3e9a43b9441e6b4c9291b9cf05747d5,
+        type: 3}
+      propertyPath: boardSwitcher
+      value: 
+      objectReference: {fileID: 1469391800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3e9a43b9441e6b4c9291b9cf05747d5, type: 3}
 --- !u!1 &975982253
@@ -453,7 +463,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 198, y: -89}
+  m_AnchoredPosition: {x: 198, y: -86.1}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1250284993
@@ -683,6 +693,26 @@ MonoBehaviour:
   camera: {fileID: 975982255}
   boardID: 0
   kingUnlock: 0
+  playRoySleep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f2639db308973054397f1f87329d6336,
+      type: 2}
+  stopRoySleep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 24cdd44c68e80b84b81a74b6f8d108f7,
+      type: 2}
+  playSkittlesSleep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: af0acae378b18a949b93890283394555,
+      type: 2}
+  stopSkittlesSleep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 24cdd44c68e80b84b81a74b6f8d108f7,
+      type: 2}
 --- !u!1001 &1490117446
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -690,6 +720,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 67098643835440250, guid: b3e9a43b9441e6b4c9291b9cf05747d5,
+        type: 3}
+      propertyPath: boardSwitcher
+      value: 
+      objectReference: {fileID: 1469391800}
     - target: {fileID: 6046424604647819684, guid: b3e9a43b9441e6b4c9291b9cf05747d5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -765,6 +800,11 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7432748919038468763, guid: b3e9a43b9441e6b4c9291b9cf05747d5,
+        type: 3}
+      propertyPath: boardSwitcher
+      value: 
+      objectReference: {fileID: 1469391800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3e9a43b9441e6b4c9291b9cf05747d5, type: 3}
 --- !u!1 &1526003423 stripped
@@ -948,6 +988,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 67098643835440250, guid: b3e9a43b9441e6b4c9291b9cf05747d5,
+        type: 3}
+      propertyPath: boardSwitcher
+      value: 
+      objectReference: {fileID: 1469391800}
     - target: {fileID: 6046424604647819684, guid: b3e9a43b9441e6b4c9291b9cf05747d5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1023,6 +1068,11 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.9245283
       objectReference: {fileID: 0}
+    - target: {fileID: 7432748919038468763, guid: b3e9a43b9441e6b4c9291b9cf05747d5,
+        type: 3}
+      propertyPath: boardSwitcher
+      value: 
+      objectReference: {fileID: 1469391800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3e9a43b9441e6b4c9291b9cf05747d5, type: 3}
 --- !u!1 &1704221759
@@ -1135,6 +1185,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 67098643835440250, guid: b3e9a43b9441e6b4c9291b9cf05747d5,
+        type: 3}
+      propertyPath: boardSwitcher
+      value: 
+      objectReference: {fileID: 1469391800}
     - target: {fileID: 6046424604647819684, guid: b3e9a43b9441e6b4c9291b9cf05747d5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1210,6 +1265,11 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.13760757
       objectReference: {fileID: 0}
+    - target: {fileID: 7432748919038468763, guid: b3e9a43b9441e6b4c9291b9cf05747d5,
+        type: 3}
+      propertyPath: boardSwitcher
+      value: 
+      objectReference: {fileID: 1469391800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3e9a43b9441e6b4c9291b9cf05747d5, type: 3}
 --- !u!1001 &6046424605945915743
@@ -1219,6 +1279,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 67098643835440250, guid: b3e9a43b9441e6b4c9291b9cf05747d5,
+        type: 3}
+      propertyPath: boardSwitcher
+      value: 
+      objectReference: {fileID: 1469391800}
     - target: {fileID: 6046424604647819684, guid: b3e9a43b9441e6b4c9291b9cf05747d5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1279,6 +1344,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GrandCoordinateur
       objectReference: {fileID: 0}
+    - target: {fileID: 7432748919038468763, guid: b3e9a43b9441e6b4c9291b9cf05747d5,
+        type: 3}
+      propertyPath: boardSwitcher
+      value: 
+      objectReference: {fileID: 1469391800}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3e9a43b9441e6b4c9291b9cf05747d5, type: 3}
 --- !u!1 &6046424605945915744 stripped
