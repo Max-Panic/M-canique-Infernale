@@ -51,7 +51,7 @@
 								</Sound>
 							</ChildrenList>
 						</BlendContainer>
-						<BlendContainer Name="Glitch" ID="{873ED286-1D3E-4491-B30A-E812DE368B54}" ShortID="436515693">
+						<BlendContainer Name="SFX Glitch" ID="{873ED286-1D3E-4491-B30A-E812DE368B54}" ShortID="436515693">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
@@ -307,7 +307,7 @@
 								</Sound>
 							</ChildrenList>
 						</BlendContainer>
-						<Sound Name="Cordelette Break" ID="{917C3E4A-97C8-4184-A0B9-B74095F21F21}" ShortID="398013414">
+						<Sound Name="SFX Cordelette Break" ID="{917C3E4A-97C8-4184-A0B9-B74095F21F21}" ShortID="398013414">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -334,6 +334,38 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Cordelette Break" ID="{573616F5-8440-4277-9951-9447DDE0FE6D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX Alarme" ID="{997C4902-471D-44D0-ADDC-0679E9195040}" ShortID="843926941">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Alarme 01" ID="{94EEE578-1966-4CD9-B1E7-E6EE90302340}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="370.282"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.252258256274769"/>
+										<Property Name="LoopEnd" Type="Real64" Value="9.57253698811096"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="9.83807199471598"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Alarme 01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="626491943"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Alarme 01" ID="{94EEE578-1966-4CD9-B1E7-E6EE90302340}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

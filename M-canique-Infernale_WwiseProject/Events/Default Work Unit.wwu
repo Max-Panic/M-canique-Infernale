@@ -250,23 +250,34 @@
 					</ChildrenList>
 				</Event>
 				<Folder Name="Hamster" ID="{6223815E-FA0B-4AC6-AE5A-5621F3170135}" ShortID="910796295"/>
-				<Event Name="Play_Glitch" ID="{D392F533-3909-43F3-B210-EB6E9751706E}">
+				<Event Name="Play_SFX_Glitch" ID="{FFC7C976-3146-402C-B09A-B352F076C9AC}">
 					<ChildrenList>
-						<Action Name="" ID="{E2724819-D896-41D0-8602-68EEFD67F36E}" ShortID="527217908">
+						<Action Name="" ID="{D6561D7F-4D44-47E2-B224-AAEDA75A412E}" ShortID="562668173">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Glitch" ID="{873ED286-1D3E-4491-B30A-E812DE368B54}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+									<ObjectRef Name="SFX Glitch" ID="{873ED286-1D3E-4491-B30A-E812DE368B54}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Cordelette_Break" ID="{57097D75-9679-4DC0-969A-B1F6EACF6C7A}">
+				<Event Name="Play_SFX_Alarme" ID="{A911FBEC-18EE-4D64-8B0A-4E1D58786A72}">
 					<ChildrenList>
-						<Action Name="" ID="{5390CD21-28B8-48FE-949B-C60EC23D87EC}" ShortID="368545425">
+						<Action Name="" ID="{6C0D0730-BF94-474D-8C8E-A710CA1BC3F6}" ShortID="500844424">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Cordelette Break" ID="{917C3E4A-97C8-4184-A0B9-B74095F21F21}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+									<ObjectRef Name="SFX Alarme" ID="{997C4902-471D-44D0-ADDC-0679E9195040}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Cordelette_Break" ID="{884C2E08-93E8-494F-B2B9-8E54DA914994}">
+					<ChildrenList>
+						<Action Name="" ID="{76DB2221-A9D0-4265-BC47-6BDC7BE87D14}" ShortID="1018221353">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX Cordelette Break" ID="{917C3E4A-97C8-4184-A0B9-B74095F21F21}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
