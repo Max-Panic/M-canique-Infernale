@@ -165,6 +165,7 @@ public class InputManager : MonoBehaviour
         if (win)
         {
             animator.SetBool("Clavier", true);
+            boardSwitcher.skittlesAsleep = false;
         }
             
         
