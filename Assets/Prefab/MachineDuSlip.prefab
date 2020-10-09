@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1124636651763653770}
   - component: {fileID: 1124636651763653771}
+  - component: {fileID: 1124636652912764031}
   m_Layer: 0
   m_Name: ensemble
   m_TagString: Untagged
@@ -55,6 +56,72 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1124636652912764031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124636651763653813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c69120937b59474ab866b5b589dc4fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bottle_Appearance:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: aa562e6c4f80c91459de4c9e5a67c5ff,
+      type: 2}
+  Sleeping_Hamster:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: af0acae378b18a949b93890283394555,
+      type: 2}
+  Running_Hamster_Starting:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ecf34105d007ab743a6229f001219c60,
+      type: 2}
+  Stop_Sleeping_Hamster:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 84af8364fdd61f144828110d168b8357,
+      type: 2}
+  Stop_Running_Hamster_Wheel:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 24cdd44c68e80b84b81a74b6f8d108f7,
+      type: 2}
+  Play_Motor_Activation:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f8ef54fa4539e1145a175ad8bde42524,
+      type: 2}
+  Stop_Machine_Infernale:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d31d4630589726341968c0b7744b0a4d,
+      type: 2}
+  Play_Fire:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 64d37626b5b602944aeb89591a8c82f3,
+      type: 2}
+  Play_Pneumatic:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 45e1ae08faa4f4540b0b0ed751bc2fbd,
+      type: 2}
+  Play_Mechanical_Arm:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e7de209fd852c8b47b27bd9bbc685b33,
+      type: 2}
+  Play_Pince:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1124636651779298146
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,7 +435,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 50
   m_Sprite: {fileID: 21300000, guid: f08c9b1a1cf57494c850f7c6d680bdc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -895,6 +962,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1124636652098067796}
   - component: {fileID: 1124636652098067797}
+  - component: {fileID: 1124636652912764030}
   m_Layer: 0
   m_Name: boite
   m_TagString: Untagged
@@ -942,6 +1010,72 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1124636652912764030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124636652098067799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c69120937b59474ab866b5b589dc4fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bottle_Appearance:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: aa562e6c4f80c91459de4c9e5a67c5ff,
+      type: 2}
+  Sleeping_Hamster:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: af0acae378b18a949b93890283394555,
+      type: 2}
+  Running_Hamster_Starting:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ecf34105d007ab743a6229f001219c60,
+      type: 2}
+  Stop_Sleeping_Hamster:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 84af8364fdd61f144828110d168b8357,
+      type: 2}
+  Stop_Running_Hamster_Wheel:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 24cdd44c68e80b84b81a74b6f8d108f7,
+      type: 2}
+  Play_Motor_Activation:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f8ef54fa4539e1145a175ad8bde42524,
+      type: 2}
+  Stop_Machine_Infernale:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d31d4630589726341968c0b7744b0a4d,
+      type: 2}
+  Play_Fire:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 64d37626b5b602944aeb89591a8c82f3,
+      type: 2}
+  Play_Pneumatic:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 45e1ae08faa4f4540b0b0ed751bc2fbd,
+      type: 2}
+  Play_Mechanical_Arm:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e7de209fd852c8b47b27bd9bbc685b33,
+      type: 2}
+  Play_Pince:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1124636652128291264
 GameObject:
   m_ObjectHideFlags: 0
@@ -1011,7 +1145,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 50
   m_Sprite: {fileID: 21300000, guid: 6c4a391ac8ce41746a64c94735e502c2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1745,6 +1879,7 @@ GameObject:
   - component: {fileID: 1124636652399001046}
   - component: {fileID: 1124636652399001041}
   - component: {fileID: 1124636652399001047}
+  - component: {fileID: 1124636652912764024}
   m_Layer: 0
   m_Name: zippo
   m_TagString: Untagged
@@ -1834,6 +1969,72 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1124636652912764024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124636652399001043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c69120937b59474ab866b5b589dc4fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bottle_Appearance:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: aa562e6c4f80c91459de4c9e5a67c5ff,
+      type: 2}
+  Sleeping_Hamster:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: af0acae378b18a949b93890283394555,
+      type: 2}
+  Running_Hamster_Starting:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ecf34105d007ab743a6229f001219c60,
+      type: 2}
+  Stop_Sleeping_Hamster:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 84af8364fdd61f144828110d168b8357,
+      type: 2}
+  Stop_Running_Hamster_Wheel:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 24cdd44c68e80b84b81a74b6f8d108f7,
+      type: 2}
+  Play_Motor_Activation:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f8ef54fa4539e1145a175ad8bde42524,
+      type: 2}
+  Stop_Machine_Infernale:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d31d4630589726341968c0b7744b0a4d,
+      type: 2}
+  Play_Fire:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 64d37626b5b602944aeb89591a8c82f3,
+      type: 2}
+  Play_Pneumatic:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 45e1ae08faa4f4540b0b0ed751bc2fbd,
+      type: 2}
+  Play_Mechanical_Arm:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e7de209fd852c8b47b27bd9bbc685b33,
+      type: 2}
+  Play_Pince:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1124636652400175534
 GameObject:
   m_ObjectHideFlags: 0
@@ -2088,6 +2289,7 @@ GameObject:
   - component: {fileID: 1124636652500052296}
   - component: {fileID: 1124636652500052299}
   - component: {fileID: 1124636652500052298}
+  - component: {fileID: 1124636652912764032}
   m_Layer: 0
   m_Name: levier baisse
   m_TagString: Untagged
@@ -2178,6 +2380,73 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1124636652912764032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124636652500052341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c69120937b59474ab866b5b589dc4fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bottle_Appearance:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: aa562e6c4f80c91459de4c9e5a67c5ff,
+      type: 2}
+  Sleeping_Hamster:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: af0acae378b18a949b93890283394555,
+      type: 2}
+  Running_Hamster_Starting:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ecf34105d007ab743a6229f001219c60,
+      type: 2}
+  Stop_Sleeping_Hamster:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 84af8364fdd61f144828110d168b8357,
+      type: 2}
+  Stop_Running_Hamster_Wheel:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 24cdd44c68e80b84b81a74b6f8d108f7,
+      type: 2}
+  Play_Motor_Activation:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f8ef54fa4539e1145a175ad8bde42524,
+      type: 2}
+  Stop_Machine_Infernale:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d31d4630589726341968c0b7744b0a4d,
+      type: 2}
+  Play_Fire:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 64d37626b5b602944aeb89591a8c82f3,
+      type: 2}
+  Play_Pneumatic:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 45e1ae08faa4f4540b0b0ed751bc2fbd,
+      type: 2}
+  Play_Mechanical_Arm:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e7de209fd852c8b47b27bd9bbc685b33,
+      type: 2}
+  Play_Pince:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 36e63144192352840acb22b796c1779d,
+      type: 2}
 --- !u!1 &1124636652520623880
 GameObject:
   m_ObjectHideFlags: 0
@@ -2188,6 +2457,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1124636652520623881}
   - component: {fileID: 1124636652520623886}
+  - component: {fileID: 1124636652912764028}
   m_Layer: 0
   m_Name: coloquinte
   m_TagString: Untagged
@@ -2259,6 +2529,72 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1124636652912764028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124636652520623880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c69120937b59474ab866b5b589dc4fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bottle_Appearance:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: aa562e6c4f80c91459de4c9e5a67c5ff,
+      type: 2}
+  Sleeping_Hamster:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: af0acae378b18a949b93890283394555,
+      type: 2}
+  Running_Hamster_Starting:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ecf34105d007ab743a6229f001219c60,
+      type: 2}
+  Stop_Sleeping_Hamster:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 84af8364fdd61f144828110d168b8357,
+      type: 2}
+  Stop_Running_Hamster_Wheel:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 24cdd44c68e80b84b81a74b6f8d108f7,
+      type: 2}
+  Play_Motor_Activation:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f8ef54fa4539e1145a175ad8bde42524,
+      type: 2}
+  Stop_Machine_Infernale:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d31d4630589726341968c0b7744b0a4d,
+      type: 2}
+  Play_Fire:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 64d37626b5b602944aeb89591a8c82f3,
+      type: 2}
+  Play_Pneumatic:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 45e1ae08faa4f4540b0b0ed751bc2fbd,
+      type: 2}
+  Play_Mechanical_Arm:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e7de209fd852c8b47b27bd9bbc685b33,
+      type: 2}
+  Play_Pince:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1124636652560155752
 GameObject:
   m_ObjectHideFlags: 0
@@ -3157,6 +3493,7 @@ GameObject:
   - component: {fileID: 1124636652889154276}
   - component: {fileID: 1124636652889154279}
   - component: {fileID: 1124636652889154278}
+  - component: {fileID: 1124636652912764023}
   m_Layer: 0
   m_Name: robinet
   m_TagString: Untagged
@@ -3292,6 +3629,72 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1124636652912764023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124636652889154273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c69120937b59474ab866b5b589dc4fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bottle_Appearance:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: aa562e6c4f80c91459de4c9e5a67c5ff,
+      type: 2}
+  Sleeping_Hamster:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: af0acae378b18a949b93890283394555,
+      type: 2}
+  Running_Hamster_Starting:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ecf34105d007ab743a6229f001219c60,
+      type: 2}
+  Stop_Sleeping_Hamster:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 84af8364fdd61f144828110d168b8357,
+      type: 2}
+  Stop_Running_Hamster_Wheel:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 24cdd44c68e80b84b81a74b6f8d108f7,
+      type: 2}
+  Play_Motor_Activation:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f8ef54fa4539e1145a175ad8bde42524,
+      type: 2}
+  Stop_Machine_Infernale:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d31d4630589726341968c0b7744b0a4d,
+      type: 2}
+  Play_Fire:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 64d37626b5b602944aeb89591a8c82f3,
+      type: 2}
+  Play_Pneumatic:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 45e1ae08faa4f4540b0b0ed751bc2fbd,
+      type: 2}
+  Play_Mechanical_Arm:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e7de209fd852c8b47b27bd9bbc685b33,
+      type: 2}
+  Play_Pince:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1124636652898260997
 GameObject:
   m_ObjectHideFlags: 0
@@ -3305,6 +3708,7 @@ GameObject:
   - component: {fileID: 1124636652898261017}
   - component: {fileID: 1124636652898261016}
   - component: {fileID: 1124636652898261019}
+  - component: {fileID: 1124636652912764026}
   m_Layer: 0
   m_Name: pinces
   m_TagString: Untagged
@@ -3414,6 +3818,72 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1124636652912764026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124636652898260997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c69120937b59474ab866b5b589dc4fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bottle_Appearance:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: aa562e6c4f80c91459de4c9e5a67c5ff,
+      type: 2}
+  Sleeping_Hamster:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: af0acae378b18a949b93890283394555,
+      type: 2}
+  Running_Hamster_Starting:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ecf34105d007ab743a6229f001219c60,
+      type: 2}
+  Stop_Sleeping_Hamster:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 84af8364fdd61f144828110d168b8357,
+      type: 2}
+  Stop_Running_Hamster_Wheel:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 24cdd44c68e80b84b81a74b6f8d108f7,
+      type: 2}
+  Play_Motor_Activation:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f8ef54fa4539e1145a175ad8bde42524,
+      type: 2}
+  Stop_Machine_Infernale:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d31d4630589726341968c0b7744b0a4d,
+      type: 2}
+  Play_Fire:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 64d37626b5b602944aeb89591a8c82f3,
+      type: 2}
+  Play_Pneumatic:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 45e1ae08faa4f4540b0b0ed751bc2fbd,
+      type: 2}
+  Play_Mechanical_Arm:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e7de209fd852c8b47b27bd9bbc685b33,
+      type: 2}
+  Play_Pince:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1124636652924089591
 GameObject:
   m_ObjectHideFlags: 0
@@ -3750,6 +4220,7 @@ GameObject:
   - component: {fileID: 1124636653023992389}
   - component: {fileID: 1124636653023992388}
   - component: {fileID: 1124636653023992411}
+  - component: {fileID: 1124636652912764029}
   m_Layer: 0
   m_Name: bouteille 1
   m_TagString: Untagged
@@ -3854,6 +4325,72 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1124636652098067799}
   abled: 0
+--- !u!114 &1124636652912764029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124636653023992391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c69120937b59474ab866b5b589dc4fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bottle_Appearance:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: aa562e6c4f80c91459de4c9e5a67c5ff,
+      type: 2}
+  Sleeping_Hamster:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: af0acae378b18a949b93890283394555,
+      type: 2}
+  Running_Hamster_Starting:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ecf34105d007ab743a6229f001219c60,
+      type: 2}
+  Stop_Sleeping_Hamster:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 84af8364fdd61f144828110d168b8357,
+      type: 2}
+  Stop_Running_Hamster_Wheel:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 24cdd44c68e80b84b81a74b6f8d108f7,
+      type: 2}
+  Play_Motor_Activation:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f8ef54fa4539e1145a175ad8bde42524,
+      type: 2}
+  Stop_Machine_Infernale:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d31d4630589726341968c0b7744b0a4d,
+      type: 2}
+  Play_Fire:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 64d37626b5b602944aeb89591a8c82f3,
+      type: 2}
+  Play_Pneumatic:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 45e1ae08faa4f4540b0b0ed751bc2fbd,
+      type: 2}
+  Play_Mechanical_Arm:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e7de209fd852c8b47b27bd9bbc685b33,
+      type: 2}
+  Play_Pince:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1124636653024871731
 GameObject:
   m_ObjectHideFlags: 0
@@ -5021,6 +5558,7 @@ GameObject:
   - component: {fileID: 1124636653446219745}
   - component: {fileID: 1124636653446219744}
   - component: {fileID: 1124636653446219750}
+  - component: {fileID: 1124636652912764025}
   m_Layer: 0
   m_Name: machoires
   m_TagString: Untagged
@@ -5106,6 +5644,72 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.052664, y: 6.4748554}
   m_EdgeRadius: 0
+--- !u!114 &1124636652912764025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124636653446219746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c69120937b59474ab866b5b589dc4fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bottle_Appearance:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: aa562e6c4f80c91459de4c9e5a67c5ff,
+      type: 2}
+  Sleeping_Hamster:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: af0acae378b18a949b93890283394555,
+      type: 2}
+  Running_Hamster_Starting:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ecf34105d007ab743a6229f001219c60,
+      type: 2}
+  Stop_Sleeping_Hamster:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 84af8364fdd61f144828110d168b8357,
+      type: 2}
+  Stop_Running_Hamster_Wheel:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 24cdd44c68e80b84b81a74b6f8d108f7,
+      type: 2}
+  Play_Motor_Activation:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f8ef54fa4539e1145a175ad8bde42524,
+      type: 2}
+  Stop_Machine_Infernale:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d31d4630589726341968c0b7744b0a4d,
+      type: 2}
+  Play_Fire:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 64d37626b5b602944aeb89591a8c82f3,
+      type: 2}
+  Play_Pneumatic:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 45e1ae08faa4f4540b0b0ed751bc2fbd,
+      type: 2}
+  Play_Mechanical_Arm:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e7de209fd852c8b47b27bd9bbc685b33,
+      type: 2}
+  Play_Pince:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1124636653447512264
 GameObject:
   m_ObjectHideFlags: 0
@@ -5750,6 +6354,7 @@ GameObject:
   - component: {fileID: 1124636653741262827}
   - component: {fileID: 1124636653741262826}
   - component: {fileID: 1124636653741262824}
+  - component: {fileID: 1124636652912764033}
   m_Layer: 0
   m_Name: roue
   m_TagString: Untagged
@@ -5840,6 +6445,72 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1124636652912764033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124636653741262613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c69120937b59474ab866b5b589dc4fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bottle_Appearance:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: aa562e6c4f80c91459de4c9e5a67c5ff,
+      type: 2}
+  Sleeping_Hamster:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: af0acae378b18a949b93890283394555,
+      type: 2}
+  Running_Hamster_Starting:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ecf34105d007ab743a6229f001219c60,
+      type: 2}
+  Stop_Sleeping_Hamster:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 84af8364fdd61f144828110d168b8357,
+      type: 2}
+  Stop_Running_Hamster_Wheel:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 24cdd44c68e80b84b81a74b6f8d108f7,
+      type: 2}
+  Play_Motor_Activation:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f8ef54fa4539e1145a175ad8bde42524,
+      type: 2}
+  Stop_Machine_Infernale:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d31d4630589726341968c0b7744b0a4d,
+      type: 2}
+  Play_Fire:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 64d37626b5b602944aeb89591a8c82f3,
+      type: 2}
+  Play_Pneumatic:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 45e1ae08faa4f4540b0b0ed751bc2fbd,
+      type: 2}
+  Play_Mechanical_Arm:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e7de209fd852c8b47b27bd9bbc685b33,
+      type: 2}
+  Play_Pince:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1124636653783699074
 GameObject:
   m_ObjectHideFlags: 0
@@ -5851,6 +6522,7 @@ GameObject:
   - component: {fileID: 1124636653783699075}
   - component: {fileID: 1124636653783699073}
   - component: {fileID: 1124636653783699072}
+  - component: {fileID: 1124636652912764034}
   m_Layer: 0
   m_Name: gerbille endormie 1
   m_TagString: Untagged
@@ -5941,6 +6613,72 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1124636652912764034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124636653783699074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c69120937b59474ab866b5b589dc4fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bottle_Appearance:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: aa562e6c4f80c91459de4c9e5a67c5ff,
+      type: 2}
+  Sleeping_Hamster:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: af0acae378b18a949b93890283394555,
+      type: 2}
+  Running_Hamster_Starting:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ecf34105d007ab743a6229f001219c60,
+      type: 2}
+  Stop_Sleeping_Hamster:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 84af8364fdd61f144828110d168b8357,
+      type: 2}
+  Stop_Running_Hamster_Wheel:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 24cdd44c68e80b84b81a74b6f8d108f7,
+      type: 2}
+  Play_Motor_Activation:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f8ef54fa4539e1145a175ad8bde42524,
+      type: 2}
+  Stop_Machine_Infernale:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d31d4630589726341968c0b7744b0a4d,
+      type: 2}
+  Play_Fire:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 64d37626b5b602944aeb89591a8c82f3,
+      type: 2}
+  Play_Pneumatic:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 45e1ae08faa4f4540b0b0ed751bc2fbd,
+      type: 2}
+  Play_Mechanical_Arm:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e7de209fd852c8b47b27bd9bbc685b33,
+      type: 2}
+  Play_Pince:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1124636653822756778
 GameObject:
   m_ObjectHideFlags: 0
@@ -5951,6 +6689,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1124636653822756779}
   - component: {fileID: 1124636653822756776}
+  - component: {fileID: 1124636652912764027}
   m_Layer: 0
   m_Name: rampe
   m_TagString: Untagged
@@ -6022,6 +6761,72 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1124636652912764027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124636653822756778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c69120937b59474ab866b5b589dc4fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bottle_Appearance:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: aa562e6c4f80c91459de4c9e5a67c5ff,
+      type: 2}
+  Sleeping_Hamster:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: af0acae378b18a949b93890283394555,
+      type: 2}
+  Running_Hamster_Starting:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ecf34105d007ab743a6229f001219c60,
+      type: 2}
+  Stop_Sleeping_Hamster:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 84af8364fdd61f144828110d168b8357,
+      type: 2}
+  Stop_Running_Hamster_Wheel:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 24cdd44c68e80b84b81a74b6f8d108f7,
+      type: 2}
+  Play_Motor_Activation:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f8ef54fa4539e1145a175ad8bde42524,
+      type: 2}
+  Stop_Machine_Infernale:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d31d4630589726341968c0b7744b0a4d,
+      type: 2}
+  Play_Fire:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 64d37626b5b602944aeb89591a8c82f3,
+      type: 2}
+  Play_Pneumatic:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 45e1ae08faa4f4540b0b0ed751bc2fbd,
+      type: 2}
+  Play_Mechanical_Arm:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e7de209fd852c8b47b27bd9bbc685b33,
+      type: 2}
+  Play_Pince:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1124636653835922777
 GameObject:
   m_ObjectHideFlags: 0

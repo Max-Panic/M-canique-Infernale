@@ -131,6 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 839093285}
   - component: {fileID: 839093284}
+  - component: {fileID: 839093286}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -179,6 +180,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &839093286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839093283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 384bc6d4aa308cb41beabc86f9068a68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 42f3c4f598974dd4d831ec1f6948cad6,
+      type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1 &2014305167
 GameObject:
   m_ObjectHideFlags: 0
@@ -298,6 +324,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1124636651874745349, guid: fb6cc5082b31fdf4292846492162b54f,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1124636652128291270, guid: fb6cc5082b31fdf4292846492162b54f,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 1124636653402740946, guid: fb6cc5082b31fdf4292846492162b54f,
         type: 3}
       propertyPath: m_LocalPosition.x
