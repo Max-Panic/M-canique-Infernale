@@ -53,8 +53,9 @@ public class NumpadCode : MonoBehaviour
                 }
                 else
                     _counter += 1f*Time.deltaTime;
-        }
+            }
         
+        }
     }
 
     private void ResetCode()
@@ -101,7 +102,7 @@ public class NumpadCode : MonoBehaviour
 
         if (_numCode[0] == combination[0] && _numCode[1] == combination[1] && _numCode[2] == combination[2])
         {
-            _ToBeTransported;
+            _ToBeTransported = true;
             
             Debug.Log("Victoire par numéro");
             foreach (var i in _code)
