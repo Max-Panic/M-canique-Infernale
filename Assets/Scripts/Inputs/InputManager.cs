@@ -30,7 +30,7 @@ public class InputManager : MonoBehaviour
         {
             foreach(KeyCode kcode in Enum.GetValues(typeof(KeyCode)))
             {
-                if (Input.GetKeyUp(kcode))
+                if (Input.GetKey(kcode))
                     Debug.Log("KeyCode down: " + kcode);
             }
 
@@ -59,7 +59,7 @@ public class InputManager : MonoBehaviour
             
             }
 
-            if (Input.GetKeyUp(KeyCode.JoystickButton3))
+            if (Input.GetKey(KeyCode.JoystickButton3))
             {
                 if (!eau)
                 {
@@ -78,7 +78,7 @@ public class InputManager : MonoBehaviour
                 }
             }
 
-            if (Input.GetKeyDown(KeyCode.JoystickButton5))
+            if (Input.GetKeyUp(KeyCode.JoystickButton5))
             {
                 if (!corde)
                 {
