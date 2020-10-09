@@ -33,6 +33,7 @@ namespace AK
         static const AkUniqueID PLAY_LE_GRAND_COORDINATEUR_07 = 2502154696U;
         static const AkUniqueID PLAY_LE_GRAND_COORDINATEUR_08 = 2502154695U;
         static const AkUniqueID PLAY_LE_GRAND_COORDINATEUR_09 = 2502154694U;
+        static const AkUniqueID PLAY_LEVIER_ACTIVATION = 3362903172U;
         static const AkUniqueID PLAY_MECHANICAL_ARM = 3438301100U;
         static const AkUniqueID PLAY_MOTOR_ACTIVATION = 4267183896U;
         static const AkUniqueID PLAY_PNEUMATIC = 1119937320U;

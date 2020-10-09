@@ -233,6 +233,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3362903172" Name="Play_Levier_Activation" ObjectPath="\Events\Default Work Unit\Machine Infernale\Play_Levier_Activation" DurationType="OneShot" DurationMin="0.170708" DurationMax="0.170708">
+					<IncludedMemoryFiles>
+						<File Id="977047298" Language="SFX">
+							<ShortName>Levier Activation.wav</ShortName>
+							<Path>SFX\Levier Activation_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3438301100" Name="Play_Mechanical_Arm" ObjectPath="\Events\Default Work Unit\Machine Infernale\Play_Mechanical_Arm" DurationType="OneShot" DurationMin="2.666104" DurationMax="2.666104">
 					<IncludedMemoryFiles>
 						<File Id="424055430" Language="SFX">
@@ -341,7 +349,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4163194645" Name="Play_SFX_Glitch" ObjectPath="\Events\Default Work Unit\SFX\Glitch\Play_SFX_Glitch" DurationType="Infinite">
+				<Event Id="4163194645" Name="Play_SFX_Glitch" ObjectPath="\Events\Default Work Unit\SFX\Glitch\Play_SFX_Glitch" DurationType="OneShot" DurationMin="0.065167" DurationMax="0.408833">
 					<IncludedMemoryFiles>
 						<File Id="13822155" Language="SFX">
 							<ShortName>UI_ViewPortGlitch_Background_Image_Shift_06.wav</ShortName>
