@@ -19,7 +19,7 @@
 						</Module>
 						<Module>
 							<ObjectRef Name="Stop_Roy_Snoring" ID="{CC17801A-FC00-4012-B619-074EB520A91E}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>
-							<Position X="1" Y="3"/>
+							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Le Grand Coordinateur 05" ID="{0D5E8D4B-F03D-42BE-A89D-A629A99E14DE}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
@@ -31,15 +31,51 @@
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Roy_Snoring" ID="{4D58D81A-D95A-401C-BA16-26C070710A97}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>
-							<Position X="2" Y="3"/>
+							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Running_Hamster_Starting" ID="{44AE2BA6-F6BC-4B0C-8175-AE76068AB545}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>
 							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_White_Noise" ID="{46BE4165-8A5C-429A-92AD-2ED1055DB2C7}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Stop_Running_Hamster_Wheel" ID="{0770B228-2FCB-4D70-AD41-ECB7B1CFE90F}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>
 							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Running_Hamster_Starting" ID="{44AE2BA6-F6BC-4B0C-8175-AE76068AB545}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Sleeping_Hamster" ID="{726615D3-1C88-477C-A734-DEC9647A6D00}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>
+							<Position X="4" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_Glitch" ID="{FFC7C976-3146-402C-B09A-B352F076C9AC}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>
+							<Position X="5" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Pneumatic" ID="{510409DD-C60A-4A4E-AD9F-1E0CAC727242}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>
+							<Position X="5" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Mechanical_Arm" ID="{509A82FF-C459-4EF4-8A59-D2CFDDB0A280}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>
+							<Position X="5" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_Bottle_Appearance" ID="{FC498AF3-A73C-42BD-8179-7732CEF2CF16}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>
+							<Position X="5" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Fire" ID="{DD940C8B-089C-4A9B-9D01-39CBFABBD334}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>
+							<Position X="6" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Motor_Activation" ID="{EE7628B8-E49A-4867-9D40-2EF44FC08E31}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>
+							<Position X="6" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
