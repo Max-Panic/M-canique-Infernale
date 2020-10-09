@@ -4,9 +4,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	192823027	Play_Clorenthe_02			\Default Work Unit\Personnages\Play_Clorenthe_02	
 	192823028	Play_Clorenthe_05			\Default Work Unit\Personnages\Play_Clorenthe_05	
 	192823029	Play_Clorenthe_04			\Default Work Unit\Personnages\Play_Clorenthe_04	
-	358472035	Play_Running_Hamster_Starting			\Default Work Unit\Hamster\Play_Running_Hamster_Starting	
+	358472035	Play_Running_Hamster_Starting			\Default Work Unit\Machine Infernale\Hamster\Play_Running_Hamster_Starting	
 	536964290	Play_SFX_Grand_Coordinateur_Go_Away			\Default Work Unit\SFX\Play_SFX_Grand_Coordinateur_Go_Away	
 	722545231	Play_Ambiance_Stand			\Default Work Unit\Ambiance\Play_Ambiance_Stand	
+	1119937320	Play_Pneumatic			\Default Work Unit\Machine Infernale\Play_Pneumatic	
 	1290384421	Play_El_Diabolisious			\Default Work Unit\Personnages\Play_El_Diabolisious	
 	1323140453	Stop_Ambiance_Stand			\Default Work Unit\Ambiance\Stop_Ambiance_Stand	
 	1557419039	Play_SFX_Cordelette_Break			\Default Work Unit\SFX\Play_SFX_Cordelette_Break	
@@ -29,6 +30,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2502154701	Play_Le_Grand_Coordinateur_02			\Default Work Unit\Personnages\Play_Le_Grand_Coordinateur_02	
 	2502154702	Play_Le_Grand_Coordinateur_01			\Default Work Unit\Personnages\Play_Le_Grand_Coordinateur_01	
 	2968199849	Stop_Ambiance_Monde_des_Robots			\Default Work Unit\Ambiance\Stop_Ambiance_Monde_des_Robots	
+	3015324718	Play_Fire			\Default Work Unit\Machine Infernale\Play_Fire	
 	3018450665	SFX_Test			\Default Work Unit\SFX\SFX_Test	
 	3042495876	Play_SFX_Tiroir_Destroy			\Default Work Unit\SFX\Play_SFX_Tiroir_Destroy	
 	3095395413	Play_SFX_Contact_Activation			\Default Work Unit\SFX\Play_SFX_Contact_Activation	
@@ -37,15 +39,17 @@ Event	ID	Name			Wwise Object Path	Notes
 	3603348344	Play_SFX_Bottle_Production			\Default Work Unit\SFX\Play_SFX_Bottle_Production	
 	3741257152	Stop_Sleeping_Hamster			\Default Work Unit\Hamster\Stop_Sleeping_Hamster	
 	3816934786	Play_ViewPortGlitch_Background			\Default Work Unit\SFX\Glitch\Play_ViewPortGlitch_Background	
+	3981033928	Stop_Machine_Infernale			\Default Work Unit\Machine Infernale\Stop_Machine_Infernale	
 	3995502072	Stop_White_Noise			\Default Work Unit\SFX\Glitch\Stop_White_Noise	
 	4163194645	Play_SFX_Glitch			\Default Work Unit\SFX\Glitch\Play_SFX_Glitch	
+	4267183896	Play_Motor_Activation			\Default Work Unit\Machine Infernale\Play_Motor_Activation	
 
 Effect plug-ins	ID	Name	Type				Notes
 	819943492	Fear_no_Evil	Wwise Harmonizer			
 	4269441574	Heavy_Metal	Wwise Flanger			
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	173024209	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX Glitch\White Noise\Wwise Tone Generator	
+	173024209	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\Machniation Infernale\SFX\SFX Glitch\White Noise\Wwise Tone Generator	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	7758111	Wood Crakles 07	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Windows\SFX\Wood Crakles 07_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Ambiance Stand\Wood Crakles\Wood Crakles 07		249216

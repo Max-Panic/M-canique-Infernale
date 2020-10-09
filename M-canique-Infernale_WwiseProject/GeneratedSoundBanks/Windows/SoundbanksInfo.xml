@@ -149,6 +149,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3015324718" Name="Play_Fire" ObjectPath="\Events\Default Work Unit\Machine Infernale\Play_Fire" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2502154702" Name="Play_Le_Grand_Coordinateur_01" ObjectPath="\Events\Default Work Unit\Personnages\Play_Le_Grand_Coordinateur_01" DurationType="OneShot" DurationMin="28.086187" DurationMax="28.086187">
 					<IncludedMemoryFiles>
 						<File Id="460695711" Language="SFX">
@@ -223,13 +224,53 @@
 				</Event>
 				<Event Id="2094811461" Name="Play_Roy_Snoring" ObjectPath="\Events\Default Work Unit\Play_Roy_Snoring" DurationType="Infinite">
 					<IncludedMemoryFiles>
+						<File Id="424055430" Language="SFX">
+							<ShortName>Mechanical Arm.wav</ShortName>
+							<Path>SFX\Mechanical Arm_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4267183896" Name="Play_Motor_Activation" ObjectPath="\Events\Default Work Unit\Machine Infernale\Play_Motor_Activation" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="221510965" Language="SFX">
+							<ShortName>Motor On.wav</ShortName>
+							<Path>SFX\Motor On_755F56E2.wem</Path>
+						</File>
+						<File Id="499235482" Language="SFX">
+							<ShortName>Activation Motor Electricity.wav</ShortName>
+							<Path>SFX\Activation Motor Electricity_755F56E2.wem</Path>
+						</File>
+						<File Id="698893465" Language="SFX">
+							<ShortName>Motor Mise en marche.wav</ShortName>
+							<Path>SFX\Motor Mise en marche_755F56E2.wem</Path>
+						</File>
+						<File Id="886295117" Language="SFX">
+							<ShortName>Motor Loop.wav</ShortName>
+							<Path>SFX\Motor Loop_416235F2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1119937320" Name="Play_Pneumatic" ObjectPath="\Events\Default Work Unit\Machine Infernale\Play_Pneumatic" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="413203776" Language="SFX">
+							<ShortName>Activation Pneumatic Cable.wav</ShortName>
+							<Path>SFX\Activation Pneumatic Cable_755F56E2.wem</Path>
+						</File>
+						<File Id="802026452" Language="SFX">
+							<ShortName>Pneumatique Operation.wav</ShortName>
+							<Path>SFX\Pneumatique Operation_D8034A98.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2094811461" Name="Play_Roy_Snoring" ObjectPath="\Events\Default Work Unit\Play_Roy_Snoring" DurationType="Infinite">
+					<IncludedMemoryFiles>
 						<File Id="66989830" Language="SFX">
 							<ShortName>Roy Snoring.wav</ShortName>
 							<Path>SFX\Roy Snoring_073B4D0C.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="358472035" Name="Play_Running_Hamster_Starting" ObjectPath="\Events\Default Work Unit\Hamster\Play_Running_Hamster_Starting" DurationType="Infinite">
+				<Event Id="358472035" Name="Play_Running_Hamster_Starting" ObjectPath="\Events\Default Work Unit\Machine Infernale\Hamster\Play_Running_Hamster_Starting" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="678413032" Language="SFX">
 							<ShortName>Running Hamster.wav</ShortName>
@@ -343,6 +384,14 @@
 				</Event>
 				<Event Id="2175546250" Name="Play_Sleeping_Hamster" ObjectPath="\Events\Default Work Unit\Hamster\Play_Sleeping_Hamster" DurationType="OneShot" DurationMin="23.569008" DurationMax="23.569008">
 					<IncludedMemoryFiles>
+						<File Id="491816996" Language="SFX">
+							<ShortName>Tiroir Destroy.wav</ShortName>
+							<Path>SFX\Tiroir Destroy_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2175546250" Name="Play_Sleeping_Hamster" ObjectPath="\Events\Default Work Unit\Machine Infernale\Hamster\Play_Sleeping_Hamster" DurationType="OneShot" DurationMin="23.569008" DurationMax="23.569008">
+					<IncludedMemoryFiles>
 						<File Id="465848201" Language="SFX">
 							<ShortName>Sleeping Hamster.wav</ShortName>
 							<Path>SFX\Sleeping Hamster_FBAA512D.wem</Path>
@@ -371,13 +420,22 @@
 				<Event Id="1580981595" Name="Stop_Roy_Snoring" ObjectPath="\Events\Default Work Unit\Stop_Roy_Snoring" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3134580886" Name="Stop_Running_Hamster_Wheel" ObjectPath="\Events\Default Work Unit\Hamster\Stop_Running_Hamster_Wheel" DurationType="OneShot" DurationMin="3.138854" DurationMax="3.138854">
 					<IncludedMemoryFiles>
+						<File Id="670487937" Language="SFX">
+							<ShortName>Motor Off.wav</ShortName>
+							<Path>SFX\Motor Off_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1580981595" Name="Stop_Roy_Snoring" ObjectPath="\Events\Default Work Unit\Stop_Roy_Snoring" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3134580886" Name="Stop_Running_Hamster_Wheel" ObjectPath="\Events\Default Work Unit\Machine Infernale\Hamster\Stop_Running_Hamster_Wheel" DurationType="OneShot" DurationMin="3.138854" DurationMax="3.138854">
+					<IncludedMemoryFiles>
 						<File Id="693517478" Language="SFX">
 							<ShortName>Running Hamster Wheel Ending.wav</ShortName>
 							<Path>SFX\Running Hamster Wheel Ending_755F56E2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3741257152" Name="Stop_Sleeping_Hamster" ObjectPath="\Events\Default Work Unit\Hamster\Stop_Sleeping_Hamster" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3741257152" Name="Stop_Sleeping_Hamster" ObjectPath="\Events\Default Work Unit\Machine Infernale\Hamster\Stop_Sleeping_Hamster" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3995502072" Name="Stop_White_Noise" ObjectPath="\Events\Default Work Unit\SFX\Glitch\Stop_White_Noise" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
