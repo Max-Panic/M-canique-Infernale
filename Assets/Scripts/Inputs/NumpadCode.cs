@@ -48,7 +48,7 @@ public class NumpadCode : MonoBehaviour
             {
                 if (_counter > 1.5f)
                 {
-                    SceneManager.LoadScene(1);
+                    SceneManager.LoadScene("Scenes/FINAL_Scene");
                     _counter = 0f;
                 }
                 else
