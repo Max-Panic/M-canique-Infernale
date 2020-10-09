@@ -18,6 +18,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2094811461	Play_Roy_Snoring			\Default Work Unit\Play_Roy_Snoring	
 	2175546250	Play_Sleeping_Hamster			\Default Work Unit\Machine Infernale\Hamster\Play_Sleeping_Hamster	
 	2214627026	Play_White_Noise			\Default Work Unit\SFX\Glitch\Play_White_Noise	
+	2216298638	Play_Bottle_Ready			\Default Work Unit\Machine Infernale\Play_Bottle_Ready	
 	2221930698	Play_SFX_Alarme			\Default Work Unit\SFX\Play_SFX_Alarme	
 	2321060503	Play_Ambiance_Monde_des_Robots			\Default Work Unit\Ambiance\Play_Ambiance_Monde_des_Robots	
 	2502154694	Play_Le_Grand_Coordinateur_09			\Default Work Unit\Personnages\Play_Le_Grand_Coordinateur_09	
@@ -78,6 +79,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	373129056	Clorenthe 05	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\SFX\Clorenthe 05_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machniation Infernale\Voice\Clorenthe\Clorenthe 05		459898
 	413203776	Activation Pneumatic Cable	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\SFX\Activation Pneumatic Cable_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machniation Infernale\Machine Infernale\Module 03\Pneumatic\Activation Pneumatic Cable		4131
 	424055430	Mechanical Arm	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\SFX\Mechanical Arm_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machniation Infernale\Machine Infernale\Module 04\Mechanical Arm		128942
+	442310106	SFX Bottle Appearance	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\SFX\Bottle Appearance_C3184127.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machniation Infernale\Machine Infernale\Bottle Ready\SFX Bottle Appearance		107427
 	460695711	Le Grand Coordinateur 01	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\SFX\Le Grand Coordinateur 01_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machniation Infernale\Voice\Le Grand Coordinateur\Le Grand Coordinateur 01		1500272
 	465848201	Sleeping Hamster	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\SFX\Sleeping Hamster_FBAA512D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machniation Infernale\Machine Infernale\Module 01\Sleeping Hamster		1119646
 	491816996	SFX Tiroir Destroy	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\SFX\Tiroir Destroy_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machniation Infernale\SFX\SFX Tiroir Destroy		78905

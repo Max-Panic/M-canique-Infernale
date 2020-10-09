@@ -1725,6 +1725,11 @@
 								<Sound Name="SFX Alarme" ID="{997C4902-471D-44D0-ADDC-0679E9195040}" ShortID="843926941">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">

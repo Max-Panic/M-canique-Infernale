@@ -17,6 +17,7 @@ namespace AK
         static const AkUniqueID PLAY_AMBIANCE_STAND = 722545231U;
         static const AkUniqueID PLAY_ARTHUR_01 = 2079604844U;
         static const AkUniqueID PLAY_ARTHUR_02 = 2079604847U;
+        static const AkUniqueID PLAY_BOTTLE_READY = 2216298638U;
         static const AkUniqueID PLAY_CLORENTHE_01 = 192823024U;
         static const AkUniqueID PLAY_CLORENTHE_02 = 192823027U;
         static const AkUniqueID PLAY_CLORENTHE_03 = 192823026U;
