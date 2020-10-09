@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{666E1252-6CE1-48A5-8E0B-01BA6027776C}" SchemaVersion="97">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{666E1252-6CE1-48A5-8E0B-01BA6027776C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{666E1252-6CE1-48A5-8E0B-01BA6027776C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Personnages" ID="{FC573AE5-E653-4FA3-9532-2546669739FE}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Arthur_01" ID="{27E290FE-E1C6-4DEF-9930-058639457DFE}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Arthur 02" ID="{B7560F60-AE9E-44DD-845B-64A85E515DB0}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Le Grand Coordinateur 05" ID="{0D5E8D4B-F03D-42BE-A89D-A629A99E14DE}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Running_Hamster_Starting" ID="{44AE2BA6-F6BC-4B0C-8175-AE76068AB545}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Running_Hamster_Wheel" ID="{0770B228-2FCB-4D70-AD41-ECB7B1CFE90F}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
