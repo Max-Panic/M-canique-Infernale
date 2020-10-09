@@ -91,7 +91,16 @@ public class InputManager : MonoBehaviour
                     corde = true;
                 }
             }
-        
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                animator.SetBool("Clavier", true);
+                skittlesAnimator.SetBool("abled", true);
+                roueAnimator.SetBool("abled", true);
+                gerbille.abled = true;
+                boardSwitcher.skittlesAsleep = false;
+            }
+            
             FixedUpdate();
 
            

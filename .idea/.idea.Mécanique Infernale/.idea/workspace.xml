@@ -27,9 +27,6 @@
     <list default="true" id="4e4c4b91-b2a1-4546-8ef8-39feff8fc52a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Mécanique Infernale/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mécanique Infernale/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Mécanique Infernale/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mécanique Infernale/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene_Remi.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene_Remi.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inputs/NumpadCode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inputs/NumpadCode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Audio.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +113,7 @@
       <updated>1602075592733</updated>
       <workItem from="1602075598321" duration="7940000" />
       <workItem from="1602145743580" duration="18248000" />
-      <workItem from="1602232692782" duration="10484000" />
+      <workItem from="1602232692782" duration="11192000" />
     </task>
     <servers />
   </component>
