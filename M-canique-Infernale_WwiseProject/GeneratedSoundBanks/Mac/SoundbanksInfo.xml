@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>C:\Users\ELE5d5ab19ee5329\Documents\WorkshopLaNef\M-canique-Infernale\M-canique-Infernale_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\ELE5d5ab19ee5329\Documents\WorkshopLaNef\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\ELE5d5ab19ee5329\Documents\WorkshopLaNef\M-canique-Infernale\M-canique-Infernale_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>D:\PROJETS EN COURS\Workshop - Art &amp; Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\PROJETS EN COURS\Workshop - Art &amp; Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\PROJETS EN COURS\Workshop - Art &amp; Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\ELE5d5ab19ee5329\Documents\WorkshopLaNef\M-canique-Infernale\M-canique-Infernale_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\PROJETS EN COURS\Workshop - Art &amp; Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="275342962">
+		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2367430569" Language="SFX" Hash="560540773">
+		<SoundBank Id="2367430569" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\MainSNB</ObjectPath>
 			<ShortName>MainSNB</ShortName>
 			<Path>MainSNB.bnk</Path>
@@ -249,6 +249,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3095395413" Name="Play_SFX_Contact_Activation" ObjectPath="\Events\Default Work Unit\SFX\Play_SFX_Contact_Activation" DurationType="OneShot" DurationMin="2.401333" DurationMax="2.401333">
+					<IncludedMemoryFiles>
+						<File Id="371333561" Language="SFX">
+							<ShortName>Contact Activation.wav</ShortName>
+							<Path>SFX\Contact Activation_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1557419039" Name="Play_SFX_Cordelette_Break" ObjectPath="\Events\Default Work Unit\SFX\Play_SFX_Cordelette_Break" DurationType="OneShot" DurationMin="3.870000" DurationMax="3.870000">
 					<IncludedMemoryFiles>
 						<File Id="800373907" Language="SFX">
@@ -306,6 +314,14 @@
 						<File Id="940938563" Language="SFX">
 							<ShortName>Grand Coordinateur Go Away.wav</ShortName>
 							<Path>SFX\Grand Coordinateur Go Away_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3042495876" Name="Play_SFX_Tiroir_Destroy" ObjectPath="\Events\Default Work Unit\SFX\Play_SFX_Tiroir_Destroy" DurationType="OneShot" DurationMin="1.312063" DurationMax="1.312063">
+					<IncludedMemoryFiles>
+						<File Id="491816996" Language="SFX">
+							<ShortName>Tiroir Destroy.wav</ShortName>
+							<Path>SFX\Tiroir Destroy_755F56E2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
