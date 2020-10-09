@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class NumpadCode : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class NumpadCode : MonoBehaviour
     public int[] combination;
     private int[] _numCode = new int[3]{0, 0, 0};
     private bool _toBeReset = false;
+    private bool  _ToBeTransported = false;
 
     private float _counter;
     
@@ -40,6 +42,17 @@ public class NumpadCode : MonoBehaviour
             }
             else
                 _counter += 1f*Time.deltaTime;
+            
+            
+            if (_ToBeTransported)
+            {
+                if (_counter > 1.5f)
+                {
+                    SceneManager.LoadScene(1);
+                    _counter = 0f;
+                }
+                else
+                    _counter += 1f*Time.deltaTime;
         }
         
     }
@@ -88,6 +101,8 @@ public class NumpadCode : MonoBehaviour
 
         if (_numCode[0] == combination[0] && _numCode[1] == combination[1] && _numCode[2] == combination[2])
         {
+            _ToBeTransported;
+            
             Debug.Log("Victoire par numéro");
             foreach (var i in _code)
             {
