@@ -18,6 +18,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="AudioManager.cs" t="Include" />
+          <e p="bouteille.cs" t="Include" />
           <e p="Inputs" t="Include">
             <e p="InputManager.cs" t="Include" />
             <e p="NavigationArrow.cs" t="Include" />
