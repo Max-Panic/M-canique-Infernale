@@ -18,11 +18,16 @@ public class InputManager : MonoBehaviour
     private readonly Note[] _successfulNotes = new [] {Note.Sol, Note.Si, Note.Re};
     private Note[] _currentNotes = new[] {Note.Null, Note.Null, Note.Null};
 
+    public Animator skittlesAnimator;
+    public Animator roueAnimator;
+    public Machine gerbille;
+
     private bool tiroir = false;
     private bool eau = false;
     private bool cle = false;
     private bool echec = false;
     private bool corde = false;
+    private bool hasWon = false;
     
     void Update()
     {
@@ -165,7 +170,12 @@ public class InputManager : MonoBehaviour
         if (win)
         {
             animator.SetBool("Clavier", true);
+            skittlesAnimator.SetBool("abled", true);
+            roueAnimator.SetBool("abled", true);
+            gerbille.abled = true;
             boardSwitcher.skittlesAsleep = false;
+
+            hasWon = true;
         }
             
         
