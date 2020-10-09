@@ -1,15 +1,14 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Board : MonoBehaviour
 {
-    public Sprite image;
-    
+    public Transform center;
 
-    // Update is called once per frame
-    void Update()
+    public Vector3 getCenter()
     {
-        
+        return center.position;
     }
 }

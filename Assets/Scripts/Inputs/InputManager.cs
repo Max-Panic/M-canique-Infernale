@@ -11,29 +11,88 @@ public class InputManager : MonoBehaviour
         Sol, Si, Re, Null, Other
     }
 
-    private int _frame = 0;
+    public Animator animator;
+    public BoardSwitcher boardSwitcher;
+    
+    private float _frame = 0;
     private readonly Note[] _successfulNotes = new [] {Note.Sol, Note.Si, Note.Re};
     private Note[] _currentNotes = new[] {Note.Null, Note.Null, Note.Null};
+
+    private bool tiroir = false;
+    private bool eau = false;
+    private bool cle = false;
+    private bool echec = false;
+    private bool corde = false;
+    
     void Update()
     {
+        if (_frame >= 5)
+        {
+            foreach(KeyCode kcode in Enum.GetValues(typeof(KeyCode)))
+            {
+                if (Input.GetKey(kcode))
+                    Debug.Log("KeyCode down: " + kcode);
+            }
 
-        if (Input.GetKey(KeyCode.JoystickButton0))
-            ;
+            if(eau)
+                animator.SetBool("Water", false);
         
-        if (Input.GetKey(KeyCode.JoystickButton0))
-            ;
-        
-        if (Input.GetKey(KeyCode.JoystickButton0))
-            ;
-        
-        if (Input.GetKey(KeyCode.JoystickButton0))
-            ;
-        
-        if (Input.GetKey(KeyCode.JoystickButton0))
-            ;
-        FixedUpdate();
+            if (Input.GetKey(KeyCode.JoystickButton0))
+            {
+                if (!echec)
+                {
+                
+                    boardSwitcher.kingUnlock = true;
+                    animator.SetTrigger("Chess");
+                    echec = true;
+                }
+            }
 
-        _frame++;
+            if (Input.GetKeyUp(KeyCode.JoystickButton1))
+            {
+      
+                if (!tiroir)
+                {
+                    animator.SetTrigger("Tiroir");
+                    tiroir = true;
+                }
+            
+            }
+
+            if (Input.GetKey(KeyCode.JoystickButton3))
+            {
+                if (!eau)
+                {
+                    animator.SetBool("Water", true);
+                    eau = true;
+               
+                }
+            }
+
+            if (Input.GetKey(KeyCode.JoystickButton4))
+            {
+                if (!cle)
+                {
+                    animator.SetTrigger("Key");
+                    cle = true;
+                }
+            }
+
+            if (Input.GetKeyUp(KeyCode.JoystickButton5))
+            {
+                if (!corde)
+                {
+                    animator.SetTrigger("Rope");
+                    corde = true;
+                }
+            }
+        
+            FixedUpdate();
+
+           
+        }
+
+        _frame+= 1*Time.deltaTime;
     }
 
     private void FixedUpdate()
@@ -102,9 +161,13 @@ public class InputManager : MonoBehaviour
                 break;
             }
         }
-         
-        if(win)
-            Debug.Log("ouaaaai...");
+
+        if (win)
+        {
+            animator.SetBool("Clavier", true);
+            boardSwitcher.skittlesAsleep = false;
+        }
+            
         
     }
 

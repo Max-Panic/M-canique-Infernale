@@ -17,15 +17,20 @@
           <e p="MidiStateUpdater.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="AudioManager.cs" t="Include" />
           <e p="Inputs" t="Include">
             <e p="InputManager.cs" t="Include" />
+            <e p="NavigationArrow.cs" t="Include" />
             <e p="NumpadCode.cs" t="Include" />
             <e p="NumpadDigit.cs" t="Include" />
+            <e p="setCursor.cs" t="Include" />
           </e>
+          <e p="Machine.cs" t="Include" />
           <e p="Panel" t="Include">
             <e p="Board.cs" t="Include" />
             <e p="BoardSwitcher.cs" t="Include" />
           </e>
+          <e p="Subtitles.cs" t="Include" />
         </e>
         <e p="StreamingAssets" t="Include">
           <e p="desc.txt" t="Include" />
