@@ -253,6 +253,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{9EC18F2A-AFCF-416C-915B-CA8BEC5D2F25}" ShortID="958406911">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="6"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_Le_Grand_Coordinateur_02" ID="{48D40B1C-560E-42C9-97C4-961BBBD9A270}">
@@ -523,6 +530,8 @@
 								<Action Name="" ID="{49595FDD-A82B-4081-A3B3-5CDB724440CD}" ShortID="209953189">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -586,6 +595,19 @@
 						<Event Name="Play_Levier_Activation" ID="{70DCE283-F443-4C1E-9BD0-246D3BD1CB80}">
 							<ChildrenList>
 								<Action Name="" ID="{4CAD1383-2A1D-44FF-AD9B-8DDFF0F50109}" ShortID="661361831">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Levier Activation" ID="{F5A34561-3BA9-4C42-9FAF-81CE76670B1D}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6C37FBA2-9E42-4AA4-BA07-2F30E6940A10}" ShortID="360092562">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="4"/>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Levier Activation" ID="{F5A34561-3BA9-4C42-9FAF-81CE76670B1D}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
