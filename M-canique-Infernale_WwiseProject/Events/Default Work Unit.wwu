@@ -137,6 +137,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_SFX_Bottle_Production" ID="{5A9D2282-E6AC-4BCC-B361-86EB336EA921}">
+							<ChildrenList>
+								<Action Name="" ID="{BBAF9C60-7319-4FD4-8B40-D3793B47CB90}" ShortID="260149941">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX Bottle Production" ID="{E2D4A4C0-0E99-4B91-B814-0049A447D62D}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Bottle_Appearance" ID="{FC498AF3-A73C-42BD-8179-7732CEF2CF16}">
+							<ChildrenList>
+								<Action Name="" ID="{0A157815-A4F0-4C9D-8F47-59A1C0BBC6CC}" ShortID="537475197">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX Bottle Appearance" ID="{8C5AE136-03DB-4E36-B04D-429D5AA4FE3E}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Hamster" ID="{6223815E-FA0B-4AC6-AE5A-5621F3170135}" ShortID="910796295">

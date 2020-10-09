@@ -35,6 +35,8 @@ namespace AK
         static const AkUniqueID PLAY_ROY_SNORING = 2094811461U;
         static const AkUniqueID PLAY_RUNNING_HAMSTER_STARTING = 358472035U;
         static const AkUniqueID PLAY_SFX_ALARME = 2221930698U;
+        static const AkUniqueID PLAY_SFX_BOTTLE_APPEARANCE = 3578098991U;
+        static const AkUniqueID PLAY_SFX_BOTTLE_PRODUCTION = 3603348344U;
         static const AkUniqueID PLAY_SFX_CONTACT_ACTIVATION = 3095395413U;
         static const AkUniqueID PLAY_SFX_CORDELETTE_BREAK = 1557419039U;
         static const AkUniqueID PLAY_SFX_ELASTOMOBILE_GO_AWAY = 1919392118U;

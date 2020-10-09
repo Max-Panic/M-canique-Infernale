@@ -249,6 +249,22 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3578098991" Name="Play_SFX_Bottle_Appearance" ObjectPath="\Events\Default Work Unit\SFX\Play_SFX_Bottle_Appearance" DurationType="OneShot" DurationMin="6.404375" DurationMax="6.404375">
+					<IncludedMemoryFiles>
+						<File Id="977685593" Language="SFX">
+							<ShortName>Bottle Appearance.wav</ShortName>
+							<Path>SFX\Bottle Appearance_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3603348344" Name="Play_SFX_Bottle_Production" ObjectPath="\Events\Default Work Unit\SFX\Play_SFX_Bottle_Production" DurationType="OneShot" DurationMin="4.504271" DurationMax="4.504271">
+					<IncludedMemoryFiles>
+						<File Id="81109193" Language="SFX">
+							<ShortName>Bottle Production.wav</ShortName>
+							<Path>SFX\Bottle Production_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3095395413" Name="Play_SFX_Contact_Activation" ObjectPath="\Events\Default Work Unit\SFX\Play_SFX_Contact_Activation" DurationType="OneShot" DurationMin="2.401333" DurationMax="2.401333">
 					<IncludedMemoryFiles>
 						<File Id="371333561" Language="SFX">
