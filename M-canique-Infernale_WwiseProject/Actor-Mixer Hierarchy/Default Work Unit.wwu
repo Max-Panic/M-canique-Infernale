@@ -49,6 +49,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<BlendContainer Name="El Diabolisious" ID="{77045CD0-850C-4D12-B71F-DC35288D6D1A}" ShortID="432992066">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
@@ -1256,6 +1263,13 @@
 									</ChildrenList>
 								</BlendContainer>
 								<BlendContainer Name="Ambiance Monde des Robots" ID="{FB9C226C-88A2-4417-BD23-1D5739B2968D}" ShortID="341353781">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>

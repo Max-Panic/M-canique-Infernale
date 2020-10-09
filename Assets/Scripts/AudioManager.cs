@@ -91,4 +91,23 @@ public class AudioManager : MonoBehaviour
         AkSoundEngine.PostEvent("Play_SFX_Alarme", gameObject);
     }
 
+    void AmbienceMachine()
+    {
+        AkSoundEngine.PostEvent("Play_Ambiance_Monde_des_Robots", gameObject);
+    }
+
+    void PlaySnow()
+    {
+        AkSoundEngine.PostEvent("Play_White_Noise", gameObject);
+    }
+
+    void StopSnow()
+    {
+        AkSoundEngine.PostEvent("Stop_White_Noise", gameObject);
+    }
+
+    void MasterEvil()
+    {
+        AkSoundEngine.PostEvent("Play_El_Diabolisious", gameObject);
+    }
 }

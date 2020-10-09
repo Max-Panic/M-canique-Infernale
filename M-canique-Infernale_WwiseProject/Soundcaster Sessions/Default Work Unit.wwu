@@ -42,6 +42,14 @@
 							<Position X="3" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_El_Diabolisious" ID="{E9EC5103-3211-4C6F-B7D8-96935E9E3BC9}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ambiance_Monde_des_Robots" ID="{0875ED35-7E0C-4FA6-A96D-046A0E7D5DC3}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Levier_Activation" ID="{70DCE283-F443-4C1E-9BD0-246D3BD1CB80}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>
 							<Position X="3" Y="5"/>
 						</Module>
