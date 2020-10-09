@@ -35,6 +35,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3042495876	Play_SFX_Tiroir_Destroy			\Default Work Unit\SFX\Play_SFX_Tiroir_Destroy	
 	3095395413	Play_SFX_Contact_Activation			\Default Work Unit\SFX\Play_SFX_Contact_Activation	
 	3134580886	Stop_Running_Hamster_Wheel			\Default Work Unit\Machine Infernale\Hamster\Stop_Running_Hamster_Wheel	
+	3362903172	Play_Levier_Activation			\Default Work Unit\Machine Infernale\Play_Levier_Activation	
 	3438301100	Play_Mechanical_Arm			\Default Work Unit\Machine Infernale\Play_Mechanical_Arm	
 	3578098991	Play_SFX_Bottle_Appearance			\Default Work Unit\Machine Infernale\Play_SFX_Bottle_Appearance	
 	3603348344	Play_SFX_Bottle_Production			\Default Work Unit\SFX\Play_SFX_Bottle_Production	
@@ -111,6 +112,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	940938563	SFX Grand Coordinateur Go Away	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Windows\SFX\Grand Coordinateur Go Away_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machniation Infernale\SFX\SFX Grand Coordinateur Go Away		34767
 	948843778	UI_ViewPortGlitch_Background_Image_Shift_05	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Windows\SFX\UI_ViewPortGlitch_Background_Image_Shift_05_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machniation Infernale\SFX\SFX Glitch\Image Glitch Shift\UI_ViewPortGlitch_Background_Image_Shift_05		15426
 	967106777	Running Hamster Wheel Starting	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Windows\SFX\Running Hamster Wheel Starting_3EEAD80D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machniation Infernale\Machine Infernale\Module 01\Hamster\Hamster Running\Running Hamster Wheel Starting		48213
+	977047298	Levier Activation	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Windows\SFX\Levier Activation_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machniation Infernale\Machine Infernale\Levier Activation		9606
 	977685593	SFX Bottle Appearance	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Windows\SFX\Bottle Appearance_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machniation Infernale\Machine Infernale\Module 06 - Nectar\SFX Bottle Appearance		366296
 	1012580450	Wood Crakles 10	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Windows\SFX\Wood Crakles 10_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machniation Infernale\Ambiance\Ambiance Stand\Wood Crakles\Wood Crakles 10		64697
 	1040974964	Clorenthe 02	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Windows\SFX\Clorenthe 02_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Machniation Infernale\Voice\Clorenthe\Clorenthe 02		176719
