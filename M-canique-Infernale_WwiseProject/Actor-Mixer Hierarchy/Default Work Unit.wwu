@@ -733,48 +733,6 @@
 								</Sound>
 							</ChildrenList>
 						</BlendContainer>
-						<BlendContainer Name="Roy" ID="{197B78DC-B0C6-44F4-81A2-847DA58657A0}" ShortID="121681236">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Roy Snoring" ID="{C95FE519-CCB6-4EBE-BA9C-DBD6519E8D40}" ShortID="289770439">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>4</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Roy Snoring" ID="{A08D83D4-25E5-44C1-899B-E5DA613FA38A}">
-											<Language>SFX</Language>
-											<AudioFile>Roy Snoring.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="66989830"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Roy Snoring" ID="{A08D83D4-25E5-44C1-899B-E5DA613FA38A}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</BlendContainer>
 						<ActorMixer Name="Le Grand Coordinateur" ID="{35FD98D7-4597-4CCC-A9F4-9096633D93FC}" ShortID="604959081">
 							<PropertyList>
 								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
@@ -2037,6 +1995,84 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Ambiance Monde des Robots" ID="{134EAE34-2CB0-49A7-8F2B-3F74B80BE42B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Voice Wihout Limitation" ID="{5CE4191A-9E87-4757-A83F-BDBD766E8A10}" ShortID="880922180">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="Roy" ID="{197B78DC-B0C6-44F4-81A2-847DA58657A0}" ShortID="121681236">
+							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Roy Snoring" ID="{C95FE519-CCB6-4EBE-BA9C-DBD6519E8D40}" ShortID="289770439">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0AF8CC1D-3F6F-4415-9FA6-EE71C3193586}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{397DE796-DC5E-4D95-8FE5-62CF70A38933}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Roy Snoring" ID="{A08D83D4-25E5-44C1-899B-E5DA613FA38A}">
+											<Language>SFX</Language>
+											<AudioFile>Roy Snoring.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="66989830"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Roy Snoring" ID="{A08D83D4-25E5-44C1-899B-E5DA613FA38A}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

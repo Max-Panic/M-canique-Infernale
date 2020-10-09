@@ -18,12 +18,20 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Stop_Roy_Snoring" ID="{CC17801A-FC00-4012-B619-074EB520A91E}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Le Grand Coordinateur 05" ID="{0D5E8D4B-F03D-42BE-A89D-A629A99E14DE}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Le_Grand_Coordinateur_03" ID="{B35737FB-123F-4301-8429-F8075F4235BE}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>
 							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Roy_Snoring" ID="{4D58D81A-D95A-401C-BA16-26C070710A97}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>
+							<Position X="2" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Running_Hamster_Starting" ID="{44AE2BA6-F6BC-4B0C-8175-AE76068AB545}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>

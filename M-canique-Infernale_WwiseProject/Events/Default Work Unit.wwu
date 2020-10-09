@@ -420,31 +420,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Roy_Snoring" ID="{4D58D81A-D95A-401C-BA16-26C070710A97}">
-							<ChildrenList>
-								<Action Name="" ID="{681DA3D9-46D2-4888-97D5-FA94BC200C08}" ShortID="52995724">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Roy" ID="{197B78DC-B0C6-44F4-81A2-847DA58657A0}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Stop_Roy_Snoring" ID="{CC17801A-FC00-4012-B619-074EB520A91E}">
-							<ChildrenList>
-								<Action Name="" ID="{A0136574-52DD-4F42-A811-F7E0508210CD}" ShortID="598545719">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Roy" ID="{197B78DC-B0C6-44F4-81A2-847DA58657A0}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Ambiance" ID="{FE57FB37-C4FD-48BA-835B-729BC0AB1AA4}" ShortID="912086417">
@@ -505,6 +480,31 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_Roy_Snoring" ID="{4D58D81A-D95A-401C-BA16-26C070710A97}">
+					<ChildrenList>
+						<Action Name="" ID="{681DA3D9-46D2-4888-97D5-FA94BC200C08}" ShortID="52995724">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Roy" ID="{197B78DC-B0C6-44F4-81A2-847DA58657A0}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Roy_Snoring" ID="{CC17801A-FC00-4012-B619-074EB520A91E}">
+					<ChildrenList>
+						<Action Name="" ID="{A0136574-52DD-4F42-A811-F7E0508210CD}" ShortID="598545719">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Roy" ID="{197B78DC-B0C6-44F4-81A2-847DA58657A0}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
