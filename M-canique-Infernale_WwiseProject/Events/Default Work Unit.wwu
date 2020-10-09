@@ -539,7 +539,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Fire" ID="{DD940C8B-089C-4A9B-9D01-39CBFABBD334}"/>
+						<Event Name="Play_Fire" ID="{DD940C8B-089C-4A9B-9D01-39CBFABBD334}">
+							<ChildrenList>
+								<Action Name="" ID="{A2975E6B-D6C5-4636-88FE-D360FC7B4076}" ShortID="930259704">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Fire Potion" ID="{E0B4AA61-49A8-4828-9B8B-477885755B6C}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Play_Pneumatic" ID="{510409DD-C60A-4A4E-AD9F-1E0CAC727242}">
 							<ChildrenList>
 								<Action Name="" ID="{39F47460-811C-4980-8EFB-4E891BAD85FC}" ShortID="630708355">

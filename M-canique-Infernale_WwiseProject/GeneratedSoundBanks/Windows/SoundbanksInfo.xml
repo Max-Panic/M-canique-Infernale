@@ -149,7 +149,18 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3015324718" Name="Play_Fire" ObjectPath="\Events\Default Work Unit\Machine Infernale\Play_Fire" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3015324718" Name="Play_Fire" ObjectPath="\Events\Default Work Unit\Machine Infernale\Play_Fire" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="108557137" Language="SFX">
+							<ShortName>Fire Potion Loop.wav</ShortName>
+							<Path>SFX\Fire Potion Loop_10325048.wem</Path>
+						</File>
+						<File Id="210281565" Language="SFX">
+							<ShortName>Fire Potion Activation.wav</ShortName>
+							<Path>SFX\Fire Potion Activation_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2502154702" Name="Play_Le_Grand_Coordinateur_01" ObjectPath="\Events\Default Work Unit\Personnages\Play_Le_Grand_Coordinateur_01" DurationType="OneShot" DurationMin="28.086187" DurationMax="28.086187">
 					<IncludedMemoryFiles>
 						<File Id="460695711" Language="SFX">
