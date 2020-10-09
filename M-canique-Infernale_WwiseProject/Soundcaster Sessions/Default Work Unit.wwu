@@ -42,6 +42,10 @@
 							<Position X="3" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Levier_Activation" ID="{70DCE283-F443-4C1E-9BD0-246D3BD1CB80}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>
+							<Position X="3" Y="5"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Stop_Running_Hamster_Wheel" ID="{0770B228-2FCB-4D70-AD41-ECB7B1CFE90F}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>
 							<Position X="4" Y="0"/>
 						</Module>
@@ -76,6 +80,10 @@
 						<Module>
 							<ObjectRef Name="Play_Motor_Activation" ID="{EE7628B8-E49A-4867-9D40-2EF44FC08E31}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>
 							<Position X="6" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Machine_Infernale" ID="{5271FD50-BC0F-4E48-A8DB-0D22AC0030BF}" WorkUnitID="{F4A7F3AC-CE07-42FB-8A4D-BE5750020C24}"/>
+							<Position X="6" Y="3"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
