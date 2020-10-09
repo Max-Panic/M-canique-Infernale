@@ -40,11 +40,14 @@ public class BoardSwitcher : MonoBehaviour
                 else if(currentBoardID<boardID)
                 {
                     showBoard(boardID+1);
-                    currentBoardID = boardID +1;
+                    boardID += 1;
+                    currentBoardID = boardID;
+                    
                 }
                 else
                 {
                     showBoard(boardID-1);
+                    boardID -= 1;
                     currentBoardID = boardID -1;
                 }
             }
