@@ -73,7 +73,7 @@ public class InputManager : MonoBehaviour
             {
                 if (!cle)
                 {
-                    // animator.SetTrigger("");
+                    animator.SetTrigger("Key");
                     cle = true;
                 }
             }
