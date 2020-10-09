@@ -93,7 +93,7 @@ public class AudioManager : MonoBehaviour
 
     void AmbienceMachine()
     {
-        AkSoundEngine.PostEvent("Stop_Ambiance_Monde_des_Robots", gameObject);
+        AkSoundEngine.PostEvent("Play_Ambiance_Monde_des_Robots", gameObject);
     }
 
     void PlaySnow()
@@ -104,5 +104,10 @@ public class AudioManager : MonoBehaviour
     void StopSnow()
     {
         AkSoundEngine.PostEvent("Stop_White_Noise", gameObject);
+    }
+
+    void MasterEvil()
+    {
+        AkSoundEngine.PostEvent("Play_El_Diabolisious", gameObject);
     }
 }
