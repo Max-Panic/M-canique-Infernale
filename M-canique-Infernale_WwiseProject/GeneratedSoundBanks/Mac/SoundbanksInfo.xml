@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>D:\PROJETS EN COURS\Workshop - Art &amp; Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\PROJETS EN COURS\Workshop - Art &amp; Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>D:\PROJETS EN COURS\Workshop - Art &amp; Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\ELE5d5ab19ee5329\Documents\WorkshopLaNef\M-canique-Infernale\M-canique-Infernale_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\ELE5d5ab19ee5329\Documents\WorkshopLaNef\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\ELE5d5ab19ee5329\Documents\WorkshopLaNef\M-canique-Infernale\M-canique-Infernale_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\PROJETS EN COURS\Workshop - Art &amp; Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\ELE5d5ab19ee5329\Documents\WorkshopLaNef\M-canique-Infernale\M-canique-Infernale_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX">
+		<SoundBank Id="1355168291" Language="SFX" Hash="275342962">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2367430569" Language="SFX">
+		<SoundBank Id="2367430569" Language="SFX" Hash="560540773">
 			<ObjectPath>\SoundBanks\Default Work Unit\MainSNB</ObjectPath>
 			<ShortName>MainSNB</ShortName>
 			<Path>MainSNB.bnk</Path>
@@ -25,7 +25,7 @@
 					<IncludedMemoryFiles>
 						<File Id="553918226" Language="SFX">
 							<ShortName>Ambiance Monde des Robots.wav</ShortName>
-							<Path>SFX\Ambiance Monde des Robots_07581391.wem</Path>
+							<Path>SFX\Ambiance Monde des Robots_1D20E8EC.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -49,7 +49,7 @@
 						</File>
 						<File Id="495393361" Language="SFX">
 							<ShortName>Ambiance Night Chamber.wav</ShortName>
-							<Path>SFX\Ambiance Night Chamber_F080479C.wem</Path>
+							<Path>SFX\Ambiance Night Chamber_FD407C30.wem</Path>
 						</File>
 						<File Id="528635906" Language="SFX">
 							<ShortName>Ambiance Starting.wav</ShortName>
@@ -233,11 +233,11 @@
 					<IncludedMemoryFiles>
 						<File Id="678413032" Language="SFX">
 							<ShortName>Running Hamster.wav</ShortName>
-							<Path>SFX\Running Hamster_A674ECDE.wem</Path>
+							<Path>SFX\Running Hamster_92E0C9F0.wem</Path>
 						</File>
 						<File Id="967106777" Language="SFX">
 							<ShortName>Running Hamster Wheel Starting.wav</ShortName>
-							<Path>SFX\Running Hamster Wheel Starting_04BBEB77.wem</Path>
+							<Path>SFX\Running Hamster Wheel Starting_3EEAD80D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -245,7 +245,7 @@
 					<IncludedMemoryFiles>
 						<File Id="626491943" Language="SFX">
 							<ShortName>Alarme 01.wav</ShortName>
-							<Path>SFX\Alarme 01_D7A7803E.wem</Path>
+							<Path>SFX\Alarme 01_18528ABB.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -313,7 +313,7 @@
 					<IncludedMemoryFiles>
 						<File Id="465848201" Language="SFX">
 							<ShortName>Sleeping Hamster.wav</ShortName>
-							<Path>SFX\Sleeping Hamster_97820F7B.wem</Path>
+							<Path>SFX\Sleeping Hamster_FBAA512D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -321,7 +321,7 @@
 					<IncludedMemoryFiles>
 						<File Id="100298728" Language="SFX">
 							<ShortName>UI_ViewPortGlitch_Background_Without_High_Frequency.wav</ShortName>
-							<Path>SFX\UI_ViewPortGlitch_Background_Without_High_Frequency_946ABBFB.wem</Path>
+							<Path>SFX\UI_ViewPortGlitch_Background_Without_High_Frequency_79E3FBDE.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
