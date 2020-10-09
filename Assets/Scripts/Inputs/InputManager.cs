@@ -161,9 +161,12 @@ public class InputManager : MonoBehaviour
                 break;
             }
         }
-         
-        if(win)
-            animator.SetBool("Water", true);
+
+        if (win)
+        {
+            animator.SetBool("Clavier", true);
+        }
+            
         
     }
 
