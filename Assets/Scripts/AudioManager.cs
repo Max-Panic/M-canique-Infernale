@@ -86,4 +86,9 @@ public class AudioManager : MonoBehaviour
         AkSoundEngine.PostEvent("Play_Clorenthe_05", gameObject);
     }
 
+    void Alerte()
+    {
+        AkSoundEngine.PostEvent("Play_SFX_Alarme", gameObject);
+    }
+
 }
