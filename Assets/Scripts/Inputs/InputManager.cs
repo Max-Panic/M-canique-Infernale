@@ -14,81 +14,90 @@ public class InputManager : MonoBehaviour
     public Animator animator;
     public BoardSwitcher boardSwitcher;
     
-    private int _frame = 0;
+    private float _frame = 0;
     private readonly Note[] _successfulNotes = new [] {Note.Sol, Note.Si, Note.Re};
     private Note[] _currentNotes = new[] {Note.Null, Note.Null, Note.Null};
+
+    public Animator skittlesAnimator;
+    public Animator roueAnimator;
+    public Machine gerbille;
 
     private bool tiroir = false;
     private bool eau = false;
     private bool cle = false;
     private bool echec = false;
     private bool corde = false;
+    private bool hasWon = false;
     
     void Update()
     {
-
-        foreach(KeyCode kcode in Enum.GetValues(typeof(KeyCode)))
+        if (_frame >= 5)
         {
-            if (Input.GetKey(kcode))
-                Debug.Log("KeyCode down: " + kcode);
-        }
-
-        if(eau)
-            animator.SetBool("Water", false);
-        
-        if (Input.GetKey(KeyCode.JoystickButton0))
-        {
-            if (!echec)
+            foreach(KeyCode kcode in Enum.GetValues(typeof(KeyCode)))
             {
+                if (Input.GetKey(kcode))
+                    Debug.Log("KeyCode down: " + kcode);
+            }
+
+            if(eau)
+                animator.SetBool("Water", false);
+        
+            if (Input.GetKey(KeyCode.JoystickButton0))
+            {
+                if (!echec)
+                {
                 
-                boardSwitcher.kingUnlock = true;
-                animator.SetTrigger("Chess");
-                echec = true;
+                    boardSwitcher.kingUnlock = true;
+                    animator.SetTrigger("Chess");
+                    echec = true;
+                }
             }
-        }
 
-        if (Input.GetKeyDown(KeyCode.JoystickButton1))
-        {
+            if (Input.GetKeyUp(KeyCode.JoystickButton1))
+            {
       
-            if (!tiroir)
-            {
-                animator.SetTrigger("Tiroir");
-                tiroir = true;
-            }
+                if (!tiroir)
+                {
+                    animator.SetTrigger("Tiroir");
+                    tiroir = true;
+                }
             
-        }
+            }
 
-        if (Input.GetKey(KeyCode.JoystickButton3))
-        {
-            if (!eau)
+            if (Input.GetKey(KeyCode.JoystickButton3))
             {
-                animator.SetBool("Water", true);
-                eau = true;
+                if (!eau)
+                {
+                    animator.SetBool("Water", true);
+                    eau = true;
                
+                }
             }
-        }
 
-        if (Input.GetKey(KeyCode.JoystickButton4))
-        {
-            if (!cle)
+            if (Input.GetKey(KeyCode.JoystickButton4))
             {
-               // animator.SetTrigger("");
-                cle = true;
+                if (!cle)
+                {
+                    animator.SetTrigger("Key");
+                    cle = true;
+                }
             }
-        }
 
-        if (Input.GetKeyDown(KeyCode.JoystickButton5))
-        {
-            if (!corde)
+            if (Input.GetKeyUp(KeyCode.JoystickButton5))
             {
-                animator.SetTrigger("Rope");
-                corde = true;
+                if (!corde)
+                {
+                    animator.SetTrigger("Rope");
+                    corde = true;
+                }
             }
-        }
         
-        FixedUpdate();
+            FixedUpdate();
 
-        _frame++;
+           
+        }
+
+        _frame+= 1*Time.deltaTime;
     }
 
     private void FixedUpdate()
@@ -157,9 +166,18 @@ public class InputManager : MonoBehaviour
                 break;
             }
         }
-         
-        if(win)
-            animator.SetBool("Water", true);
+
+        if (win)
+        {
+            animator.SetBool("Clavier", true);
+            skittlesAnimator.SetBool("abled", true);
+            roueAnimator.SetBool("abled", true);
+            gerbille.abled = true;
+            boardSwitcher.skittlesAsleep = false;
+
+            hasWon = true;
+        }
+            
         
     }
 

@@ -9,8 +9,11 @@ public class BoardSwitcher : MonoBehaviour
     public Camera camera;
     public int boardID = 0;
     private int currentBoardID = 0;
-
+    public Animator animator;
+    
     public bool kingUnlock = false;
+    public bool boardChanged;
+    public bool skittlesAsleep = true;
     
     public AK.Wwise.Event playRoySleep;
     public AK.Wwise.Event stopRoySleep;
@@ -40,11 +43,14 @@ public class BoardSwitcher : MonoBehaviour
                 else if(currentBoardID<boardID)
                 {
                     showBoard(boardID+1);
-                    currentBoardID = boardID +1;
+                    boardID += 1;
+                    currentBoardID = boardID;
+                    
                 }
                 else
                 {
                     showBoard(boardID-1);
+                    boardID -= 1;
                     currentBoardID = boardID -1;
                 }
             }
@@ -61,14 +67,22 @@ public class BoardSwitcher : MonoBehaviour
     {
         camera.transform.position = boards[id].getCenter();
 
+        if (!boardChanged)
+        {
+            animator.SetTrigger("ChangeBoard");
+            boardChanged = true;
+        }
+
         switch (id)
         {
             case 2:
-                playRoySleep.Post(gameObject);
+                if(kingUnlock)
+                    playRoySleep.Post(gameObject);
                 stopSkittlesSleep.Post(gameObject);
                 break;
             case 3:
-                 playSkittlesSleep.Post(gameObject);
+                if(skittlesAsleep)
+                    playSkittlesSleep.Post(gameObject);
                 stopRoySleep.Post(gameObject);
                 break;
             default:

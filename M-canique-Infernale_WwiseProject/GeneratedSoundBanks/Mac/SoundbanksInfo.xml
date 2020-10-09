@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>C:\Users\ELE5d5ab19ee5329\Documents\WorkshopLaNef\M-canique-Infernale\M-canique-Infernale_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\ELE5d5ab19ee5329\Documents\WorkshopLaNef\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\ELE5d5ab19ee5329\Documents\WorkshopLaNef\M-canique-Infernale\M-canique-Infernale_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>D:\PROJETS EN COURS\Workshop - Art &amp; Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\PROJETS EN COURS\Workshop - Art &amp; Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\PROJETS EN COURS\Workshop - Art &amp; Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\ELE5d5ab19ee5329\Documents\WorkshopLaNef\M-canique-Infernale\M-canique-Infernale_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\PROJETS EN COURS\Workshop - Art &amp; Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="275342962">
+		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2367430569" Language="SFX" Hash="560540773">
+		<SoundBank Id="2367430569" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\MainSNB</ObjectPath>
 			<ShortName>MainSNB</ShortName>
 			<Path>MainSNB.bnk</Path>
@@ -221,7 +221,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2094811461" Name="Play_Roy_Snoring" ObjectPath="\Events\Default Work Unit\Personnages\Play_Roy_Snoring" DurationType="Infinite">
+				<Event Id="2094811461" Name="Play_Roy_Snoring" ObjectPath="\Events\Default Work Unit\Play_Roy_Snoring" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="66989830" Language="SFX">
 							<ShortName>Roy Snoring.wav</ShortName>
@@ -246,6 +246,30 @@
 						<File Id="626491943" Language="SFX">
 							<ShortName>Alarme 01.wav</ShortName>
 							<Path>SFX\Alarme 01_18528ABB.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3578098991" Name="Play_SFX_Bottle_Appearance" ObjectPath="\Events\Default Work Unit\SFX\Play_SFX_Bottle_Appearance" DurationType="OneShot" DurationMin="6.404375" DurationMax="6.404375">
+					<IncludedMemoryFiles>
+						<File Id="977685593" Language="SFX">
+							<ShortName>Bottle Appearance.wav</ShortName>
+							<Path>SFX\Bottle Appearance_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3603348344" Name="Play_SFX_Bottle_Production" ObjectPath="\Events\Default Work Unit\SFX\Play_SFX_Bottle_Production" DurationType="OneShot" DurationMin="4.504271" DurationMax="4.504271">
+					<IncludedMemoryFiles>
+						<File Id="81109193" Language="SFX">
+							<ShortName>Bottle Production.wav</ShortName>
+							<Path>SFX\Bottle Production_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3095395413" Name="Play_SFX_Contact_Activation" ObjectPath="\Events\Default Work Unit\SFX\Play_SFX_Contact_Activation" DurationType="OneShot" DurationMin="2.401333" DurationMax="2.401333">
+					<IncludedMemoryFiles>
+						<File Id="371333561" Language="SFX">
+							<ShortName>Contact Activation.wav</ShortName>
+							<Path>SFX\Contact Activation_755F56E2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -309,6 +333,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3042495876" Name="Play_SFX_Tiroir_Destroy" ObjectPath="\Events\Default Work Unit\SFX\Play_SFX_Tiroir_Destroy" DurationType="OneShot" DurationMin="1.312063" DurationMax="1.312063">
+					<IncludedMemoryFiles>
+						<File Id="491816996" Language="SFX">
+							<ShortName>Tiroir Destroy.wav</ShortName>
+							<Path>SFX\Tiroir Destroy_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2175546250" Name="Play_Sleeping_Hamster" ObjectPath="\Events\Default Work Unit\Hamster\Play_Sleeping_Hamster" DurationType="OneShot" DurationMin="23.569008" DurationMax="23.569008">
 					<IncludedMemoryFiles>
 						<File Id="465848201" Language="SFX">
@@ -336,7 +368,7 @@
 				</Event>
 				<Event Id="2968199849" Name="Stop_Ambiance_Monde_des_Robots" ObjectPath="\Events\Default Work Unit\Ambiance\Stop_Ambiance_Monde_des_Robots" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1323140453" Name="Stop_Ambiance_Stand" ObjectPath="\Events\Default Work Unit\Ambiance\Stop_Ambiance_Stand" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1580981595" Name="Stop_Roy_Snoring" ObjectPath="\Events\Default Work Unit\Personnages\Stop_Roy_Snoring" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1580981595" Name="Stop_Roy_Snoring" ObjectPath="\Events\Default Work Unit\Stop_Roy_Snoring" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3134580886" Name="Stop_Running_Hamster_Wheel" ObjectPath="\Events\Default Work Unit\Hamster\Stop_Running_Hamster_Wheel" DurationType="OneShot" DurationMin="3.138854" DurationMax="3.138854">
 					<IncludedMemoryFiles>
 						<File Id="693517478" Language="SFX">

@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class NavigationArrow : MonoBehaviour
 {
@@ -14,7 +15,7 @@ public class NavigationArrow : MonoBehaviour
 
    public Direction direction;
 
-   private void OnMouseDown()
+   public void OnClick()
    {
       
       Debug.Log("test");
@@ -29,4 +30,6 @@ public class NavigationArrow : MonoBehaviour
       }
          
    }
+   
+
 }

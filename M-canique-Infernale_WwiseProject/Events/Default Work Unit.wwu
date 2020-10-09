@@ -115,6 +115,50 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Event Name="Play_SFX_Contact_Activation" ID="{B8F93D3D-2E21-4DF0-B203-CCBD6E1C5CEB}">
+							<ChildrenList>
+								<Action Name="" ID="{E22BFDE6-4624-4529-957F-A6A959C772B9}" ShortID="427036624">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX Contact Activation" ID="{883ECEE2-3689-4AF6-B34E-855B0B10223A}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Tiroir_Destroy" ID="{C7CCA58D-9003-4726-9C7D-4D3C117BFE80}">
+							<ChildrenList>
+								<Action Name="" ID="{07BF5FFC-C1B3-4ABC-B370-B94C458CF73F}" ShortID="764132193">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX Tiroir Destroy" ID="{CC8651F8-799F-4D94-A023-3645AFF7C0B8}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Bottle_Production" ID="{5A9D2282-E6AC-4BCC-B361-86EB336EA921}">
+							<ChildrenList>
+								<Action Name="" ID="{BBAF9C60-7319-4FD4-8B40-D3793B47CB90}" ShortID="260149941">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX Bottle Production" ID="{E2D4A4C0-0E99-4B91-B814-0049A447D62D}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Bottle_Appearance" ID="{FC498AF3-A73C-42BD-8179-7732CEF2CF16}">
+							<ChildrenList>
+								<Action Name="" ID="{0A157815-A4F0-4C9D-8F47-59A1C0BBC6CC}" ShortID="537475197">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX Bottle Appearance" ID="{8C5AE136-03DB-4E36-B04D-429D5AA4FE3E}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Hamster" ID="{6223815E-FA0B-4AC6-AE5A-5621F3170135}" ShortID="910796295">
@@ -376,31 +420,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Roy_Snoring" ID="{4D58D81A-D95A-401C-BA16-26C070710A97}">
-							<ChildrenList>
-								<Action Name="" ID="{681DA3D9-46D2-4888-97D5-FA94BC200C08}" ShortID="52995724">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Roy" ID="{197B78DC-B0C6-44F4-81A2-847DA58657A0}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Stop_Roy_Snoring" ID="{CC17801A-FC00-4012-B619-074EB520A91E}">
-							<ChildrenList>
-								<Action Name="" ID="{A0136574-52DD-4F42-A811-F7E0508210CD}" ShortID="598545719">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Roy" ID="{197B78DC-B0C6-44F4-81A2-847DA58657A0}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Ambiance" ID="{FE57FB37-C4FD-48BA-835B-729BC0AB1AA4}" ShortID="912086417">
@@ -461,6 +480,31 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_Roy_Snoring" ID="{4D58D81A-D95A-401C-BA16-26C070710A97}">
+					<ChildrenList>
+						<Action Name="" ID="{681DA3D9-46D2-4888-97D5-FA94BC200C08}" ShortID="52995724">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Roy" ID="{197B78DC-B0C6-44F4-81A2-847DA58657A0}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Roy_Snoring" ID="{CC17801A-FC00-4012-B619-074EB520A91E}">
+					<ChildrenList>
+						<Action Name="" ID="{A0136574-52DD-4F42-A811-F7E0508210CD}" ShortID="598545719">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Roy" ID="{197B78DC-B0C6-44F4-81A2-847DA58657A0}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
