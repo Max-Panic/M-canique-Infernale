@@ -10,11 +10,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	1290384421	Play_El_Diabolisious			\Default Work Unit\Personnages\Play_El_Diabolisious	
 	1323140453	Stop_Ambiance_Stand			\Default Work Unit\Ambiance\Stop_Ambiance_Stand	
 	1557419039	Play_SFX_Cordelette_Break			\Default Work Unit\SFX\Play_SFX_Cordelette_Break	
-	1580981595	Stop_Roy_Snoring			\Default Work Unit\Personnages\Stop_Roy_Snoring	
+	1580981595	Stop_Roy_Snoring			\Default Work Unit\Stop_Roy_Snoring	
 	1919392118	Play_SFX_Elastomobile_Go_Away			\Default Work Unit\SFX\Play_SFX_Elastomobile_Go_Away	
 	2079604844	Play_Arthur_01			\Default Work Unit\Personnages\Play_Arthur_01	
 	2079604847	Play_Arthur_02			\Default Work Unit\Personnages\Play_Arthur_02	
-	2094811461	Play_Roy_Snoring			\Default Work Unit\Personnages\Play_Roy_Snoring	
+	2094811461	Play_Roy_Snoring			\Default Work Unit\Play_Roy_Snoring	
 	2175546250	Play_Sleeping_Hamster			\Default Work Unit\Hamster\Play_Sleeping_Hamster	
 	2214627026	Play_White_Noise			\Default Work Unit\SFX\Glitch\Play_White_Noise	
 	2221930698	Play_SFX_Alarme			\Default Work Unit\SFX\Play_SFX_Alarme	
@@ -52,7 +52,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	13822155	UI_ViewPortGlitch_Background_Image_Shift_06	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\SFX\UI_ViewPortGlitch_Background_Image_Shift_06_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX Glitch\Image Glitch Shift\UI_ViewPortGlitch_Background_Image_Shift_06		10830
 	22515439	Arthur 02	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\SFX\Arthur 02_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Arthur\Arthur 02		69326
 	51383337	UI_ViewPortGlitch_Background_Image_Shift_08	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\SFX\UI_ViewPortGlitch_Background_Image_Shift_08_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX Glitch\Image Glitch Shift\UI_ViewPortGlitch_Background_Image_Shift_08		8629
-	66989830	Roy Snoring	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\SFX\Roy Snoring_073B4D0C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Roy\Roy Snoring		1604898
+	66989830	Roy Snoring	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\SFX\Roy Snoring_073B4D0C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice Wihout Limitation\Roy\Roy Snoring		1604898
 	81109193	SFX Bottle Production	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\SFX\Bottle Production_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX Bottle Production		285811
 	100298728	ViewPortGlitch_Background	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\SFX\UI_ViewPortGlitch_Background_Without_High_Frequency_79E3FBDE.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX Glitch\ViewPortGlitch_Background		1620220
 	120506928	UI_ViewPortGlitch_Background_Image_Shift_03	D:\PROJETS EN COURS\Workshop - Art & Game - EESI\M-canique-Infernale\M-canique-Infernale_WwiseProject\.cache\Mac\SFX\UI_ViewPortGlitch_Background_Image_Shift_03_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX Glitch\Image Glitch Shift\UI_ViewPortGlitch_Background_Image_Shift_03		4284
