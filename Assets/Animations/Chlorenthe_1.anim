@@ -507,6 +507,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 72
     messageOptions: 0
+  - time: 12.933333
+    functionName: KeyFinish
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 13.666667
     functionName: Dialog
     data: 

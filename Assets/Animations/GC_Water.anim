@@ -836,6 +836,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 17
     messageOptions: 0
+  - time: 0.13333334
+    functionName: Alerte
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 1
     functionName: Dialog
     data: 
@@ -898,6 +905,13 @@ AnimationClip:
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 22
+    messageOptions: 0
+  - time: 9.333333
+    functionName: WaterFinish
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
     messageOptions: 0
   - time: 9.466666
     functionName: Dialog
