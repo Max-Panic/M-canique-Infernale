@@ -604,13 +604,24 @@
 								<Action Name="" ID="{6C37FBA2-9E42-4AA4-BA07-2F30E6940A10}" ShortID="360092562">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="4"/>
-										<Property Name="Delay" Type="Real64" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
 										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
 										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Levier Activation" ID="{F5A34561-3BA9-4C42-9FAF-81CE76670B1D}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Bottle_Ready" ID="{B2F798B8-14EC-4519-AA85-6267857974B5}">
+							<ChildrenList>
+								<Action Name="" ID="{8C02F0B0-1576-4A93-A78D-9891FB8A493B}" ShortID="103497743">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bottle Ready" ID="{7B459F8F-4F54-458F-AC9F-D667D5712EAA}" WorkUnitID="{D38235B6-2A26-4DBA-AD28-969D137CD33E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
