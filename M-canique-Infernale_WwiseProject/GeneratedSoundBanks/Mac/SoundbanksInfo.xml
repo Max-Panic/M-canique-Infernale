@@ -101,6 +101,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2216298638" Name="Play_Bottle_Ready" ObjectPath="\Events\Default Work Unit\Machine Infernale\Play_Bottle_Ready" DurationType="OneShot" DurationMin="2.715726" DurationMax="2.715726">
+					<IncludedMemoryFiles>
+						<File Id="442310106" Language="SFX">
+							<ShortName>Bottle Appearance.wav</ShortName>
+							<Path>SFX\Bottle Appearance_C3184127.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="192823024" Name="Play_Clorenthe_01" ObjectPath="\Events\Default Work Unit\Personnages\Play_Clorenthe_01" DurationType="OneShot" DurationMin="12.372396" DurationMax="12.372396">
 					<IncludedMemoryFiles>
 						<File Id="326523990" Language="SFX">
